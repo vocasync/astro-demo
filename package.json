@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
-    "@vocasync/astro": "^0.1.6",
+    "@vocasync/astro": "^0.1.8",
     "astro": "^5.17.1"
   }
 }
