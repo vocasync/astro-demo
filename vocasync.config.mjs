@@ -19,9 +19,12 @@ export default {
     format: "mp3",
   },
 
-  // No math/LaTeX support needed for this demo
+  // Math/LaTeX support: converts expressions to speech (clearspeak) so the
+  // math post is narrated and highlighted. Requires mathjax-full +
+  // speech-rule-engine (installed in this demo).
   math: {
-    enabled: false,
+    enabled: true,
+    style: "clearspeak",
   },
 
   // Output settings

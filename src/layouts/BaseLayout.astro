@@ -1,5 +1,6 @@
 ---
 import "@vocasync/astro/styles/variables.css";
+import { demoVersion, pluginVersion } from "../version";
 
 interface Props {
   title: string;
@@ -39,6 +40,9 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
       <p>
         Built with <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> and
         <a href="https://vocasync.io" target="_blank" rel="noopener">VocaSync</a>
+      </p>
+      <p class="versions">
+        Demo v{demoVersion} · <a href="https://www.npmjs.com/package/@vocasync/astro" target="_blank" rel="noopener">@vocasync/astro</a> v{pluginVersion}
       </p>
     </footer>
   </body>
@@ -161,6 +165,14 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
 
   footer a:hover {
     text-decoration: underline;
+  }
+
+  footer .versions {
+    margin-top: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    opacity: 0.85;
   }
 
   @media (max-width: 640px) {

@@ -1,24 +1,5179 @@
 {
-  "version": 1,
-  "updatedAt": "2026-02-04T14:45:02.459Z",
+  "version": 3,
+  "updatedAt": "2026-05-25T02:48:16.181Z",
   "entries": {
     "getting-started": {
-      "projectUuid": "019c1f10-8896-7000-85ce-d608c87c83f7",
-      "contentHash": "d6bc714c3ef09f9174bd03c5493eba5b0cb9ecfc651409ab838c785d84d37b7e",
-      "audioUrl": "https://vocasync.io/api/v1/stream/019c1f10-8896-7000-85ce-d608c87c83f7/synthesis",
-      "alignmentUrl": "https://vocasync.io/api/v1/stream/019c1f10-8896-7000-85ce-d608c87c83f7/alignment",
+      "contentHash": "6ad54d26d5d09836963ca3cc1bfbf2b112c3063e9b02b21be3b2048d0943f4f9",
+      "voice": "onyx",
+      "language": "en",
+      "format": "mp3",
+      "synthesisProjectUuid": "019e5cff-2fbe-7000-8b04-6967f933881f",
+      "synthesisPublishableKey": "pk_05c17341263b7fca07307a8c064fed44",
+      "audioUrl": "https://vocasync.io/api/v1/stream/019e5cff-2fbe-7000-8b04-6967f933881f/synthesis",
+      "alignmentProjectUuid": "019e5cff-9eb5-7000-bc2f-6b316d1e15f6",
+      "alignmentPublishableKey": "pk_caffd9428b92a9b08ab84e152519c00f",
+      "words": [
+        {
+          "word": "welcome",
+          "start": 0.04,
+          "end": 0.34,
+          "duration": 0.30000000000000004
+        },
+        {
+          "word": "to",
+          "start": 0.34,
+          "end": 0.4,
+          "duration": 0.06
+        },
+        {
+          "word": "vocasync",
+          "start": 0.4,
+          "end": 1.07,
+          "duration": 0.67
+        },
+        {
+          "word": "this",
+          "start": 1.33,
+          "end": 1.5,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "is",
+          "start": 1.5,
+          "end": 1.6,
+          "duration": 0.10000000000000009
+        },
+        {
+          "word": "a",
+          "start": 1.6,
+          "end": 1.66,
+          "duration": 0.05999999999999983
+        },
+        {
+          "word": "short",
+          "start": 1.66,
+          "end": 1.99,
+          "duration": 0.33000000000000007
+        },
+        {
+          "word": "demo",
+          "start": 1.99,
+          "end": 2.23,
+          "duration": 0.24
+        },
+        {
+          "word": "post",
+          "start": 2.23,
+          "end": 2.57,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "to",
+          "start": 2.57,
+          "end": 2.63,
+          "duration": 0.06000000000000005
+        },
+        {
+          "word": "show",
+          "start": 2.63,
+          "end": 2.8,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "you",
+          "start": 2.8,
+          "end": 2.96,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "how",
+          "start": 2.96,
+          "end": 3.15,
+          "duration": 0.18999999999999995
+        },
+        {
+          "word": "easy",
+          "start": 3.15,
+          "end": 3.46,
+          "duration": 0.31000000000000005
+        },
+        {
+          "word": "it",
+          "start": 3.46,
+          "end": 3.54,
+          "duration": 0.08000000000000007
+        },
+        {
+          "word": "is",
+          "start": 3.54,
+          "end": 3.69,
+          "duration": 0.1499999999999999
+        },
+        {
+          "word": "to",
+          "start": 3.69,
+          "end": 3.86,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "add",
+          "start": 3.86,
+          "end": 4.01,
+          "duration": 0.1499999999999999
+        },
+        {
+          "word": "audio",
+          "start": 4.01,
+          "end": 4.37,
+          "duration": 0.3600000000000003
+        },
+        {
+          "word": "narration",
+          "start": 4.37,
+          "end": 4.91,
+          "duration": 0.54
+        },
+        {
+          "word": "to",
+          "start": 4.91,
+          "end": 5.03,
+          "duration": 0.1200000000000001
+        },
+        {
+          "word": "your",
+          "start": 5.03,
+          "end": 5.15,
+          "duration": 0.1200000000000001
+        },
+        {
+          "word": "astro",
+          "start": 5.15,
+          "end": 5.53,
+          "duration": 0.3799999999999999
+        },
+        {
+          "word": "blog",
+          "start": 5.53,
+          "end": 5.94,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "what",
+          "start": 6.51,
+          "end": 6.67,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "is",
+          "start": 6.67,
+          "end": 6.79,
+          "duration": 0.1200000000000001
+        },
+        {
+          "word": "vocasync",
+          "start": 6.79,
+          "end": 7.47,
+          "duration": 0.6799999999999997
+        },
+        {
+          "word": "vocasync",
+          "start": 8.27,
+          "end": 8.77,
+          "duration": 0.5
+        },
+        {
+          "word": "turns",
+          "start": 8.77,
+          "end": 9.04,
+          "duration": 0.2699999999999996
+        },
+        {
+          "word": "your",
+          "start": 9.04,
+          "end": 9.14,
+          "duration": 0.10000000000000142
+        },
+        {
+          "word": "written",
+          "start": 9.14,
+          "end": 9.44,
+          "duration": 0.29999999999999893
+        },
+        {
+          "word": "content",
+          "start": 9.44,
+          "end": 9.91,
+          "duration": 0.47000000000000064
+        },
+        {
+          "word": "into",
+          "start": 9.91,
+          "end": 10.12,
+          "duration": 0.20999999999999908
+        },
+        {
+          "word": "narrated",
+          "start": 10.12,
+          "end": 10.6,
+          "duration": 0.4800000000000004
+        },
+        {
+          "word": "audio",
+          "start": 10.6,
+          "end": 10.98,
+          "duration": 0.3800000000000008
+        },
+        {
+          "word": "with",
+          "start": 10.98,
+          "end": 11.18,
+          "duration": 0.1999999999999993
+        },
+        {
+          "word": "word",
+          "start": 11.18,
+          "end": 11.47,
+          "duration": 0.2900000000000009
+        },
+        {
+          "word": "level",
+          "start": 11.47,
+          "end": 11.73,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "synchronization",
+          "start": 11.73,
+          "end": 12.67,
+          "duration": 0.9399999999999995
+        },
+        {
+          "word": "as",
+          "start": 13.29,
+          "end": 13.45,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "listeners",
+          "start": 13.45,
+          "end": 13.88,
+          "duration": 0.4300000000000015
+        },
+        {
+          "word": "play",
+          "start": 13.88,
+          "end": 14.12,
+          "duration": 0.23999999999999844
+        },
+        {
+          "word": "the",
+          "start": 14.12,
+          "end": 14.25,
+          "duration": 0.13000000000000078
+        },
+        {
+          "word": "audio",
+          "start": 14.25,
+          "end": 14.74,
+          "duration": 0.4900000000000002
+        },
+        {
+          "word": "each",
+          "start": 14.77,
+          "end": 15.02,
+          "duration": 0.25
+        },
+        {
+          "word": "word",
+          "start": 15.02,
+          "end": 15.25,
+          "duration": 0.23000000000000043
+        },
+        {
+          "word": "highlights",
+          "start": 15.25,
+          "end": 15.76,
+          "duration": 0.5099999999999998
+        },
+        {
+          "word": "in",
+          "start": 15.76,
+          "end": 15.88,
+          "duration": 0.120000000000001
+        },
+        {
+          "word": "real",
+          "start": 15.88,
+          "end": 16.09,
+          "duration": 0.20999999999999908
+        },
+        {
+          "word": "time",
+          "start": 16.09,
+          "end": 16.559999,
+          "duration": 0.4699990000000014
+        },
+        {
+          "word": "creating",
+          "start": 16.73,
+          "end": 17.139999,
+          "duration": 0.4099989999999991
+        },
+        {
+          "word": "a",
+          "start": 17.139999,
+          "end": 17.190001,
+          "duration": 0.050001999999999214
+        },
+        {
+          "word": "karaoke",
+          "start": 17.190001,
+          "end": 17.73,
+          "duration": 0.5399990000000017
+        },
+        {
+          "word": "style",
+          "start": 17.73,
+          "end": 18.200001,
+          "duration": 0.4700009999999999
+        },
+        {
+          "word": "reading",
+          "start": 18.200001,
+          "end": 18.49,
+          "duration": 0.2899989999999981
+        },
+        {
+          "word": "experience",
+          "start": 18.49,
+          "end": 19.25,
+          "duration": 0.7600000000000016
+        },
+        {
+          "word": "key",
+          "start": 19.879999,
+          "end": 20.049999,
+          "duration": 0.16999999999999815
+        },
+        {
+          "word": "features",
+          "start": 20.049999,
+          "end": 20.65,
+          "duration": 0.6000009999999989
+        },
+        {
+          "word": "the",
+          "start": 21.219999,
+          "end": 21.35,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "integration",
+          "start": 21.35,
+          "end": 21.84,
+          "duration": 0.48999999999999844
+        },
+        {
+          "word": "offers",
+          "start": 21.84,
+          "end": 22.17,
+          "duration": 0.33000000000000185
+        },
+        {
+          "word": "several",
+          "start": 22.17,
+          "end": 22.540001,
+          "duration": 0.37000099999999847
+        },
+        {
+          "word": "powerful",
+          "start": 22.540001,
+          "end": 23.059999,
+          "duration": 0.5199980000000011
+        },
+        {
+          "word": "features",
+          "start": 23.059999,
+          "end": 23.540001,
+          "duration": 0.48000199999999893
+        },
+        {
+          "word": "out",
+          "start": 23.540001,
+          "end": 23.68,
+          "duration": 0.13999899999999954
+        },
+        {
+          "word": "of",
+          "start": 23.68,
+          "end": 23.75,
+          "duration": 0.07000000000000028
+        },
+        {
+          "word": "the",
+          "start": 23.75,
+          "end": 23.809999,
+          "duration": 0.059999000000001246
+        },
+        {
+          "word": "box",
+          "start": 23.809999,
+          "end": 24.379999,
+          "duration": 0.5700000000000003
+        },
+        {
+          "word": "natural",
+          "start": 24.98,
+          "end": 25.43,
+          "duration": 0.4499999999999993
+        },
+        {
+          "word": "voices",
+          "start": 25.43,
+          "end": 25.91,
+          "duration": 0.4800000000000004
+        },
+        {
+          "word": "powered",
+          "start": 25.91,
+          "end": 26.32,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "by",
+          "start": 26.32,
+          "end": 26.440001,
+          "duration": 0.12000099999999847
+        },
+        {
+          "word": "advanced",
+          "start": 26.440001,
+          "end": 26.969999,
+          "duration": 0.5299980000000026
+        },
+        {
+          "word": "text",
+          "start": 26.969999,
+          "end": 27.280001,
+          "duration": 0.3100019999999972
+        },
+        {
+          "word": "to",
+          "start": 27.280001,
+          "end": 27.34,
+          "duration": 0.059999000000001246
+        },
+        {
+          "word": "speech",
+          "start": 27.34,
+          "end": 27.870001,
+          "duration": 0.5300009999999986
+        },
+        {
+          "word": "word",
+          "start": 28.959999,
+          "end": 29.16,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "highlighting",
+          "start": 29.16,
+          "end": 29.690001,
+          "duration": 0.5300009999999986
+        },
+        {
+          "word": "that",
+          "start": 29.690001,
+          "end": 29.84,
+          "duration": 0.1499990000000011
+        },
+        {
+          "word": "follows",
+          "start": 29.84,
+          "end": 30.379999,
+          "duration": 0.5399990000000017
+        },
+        {
+          "word": "along",
+          "start": 30.379999,
+          "end": 30.77,
+          "duration": 0.39000099999999804
+        },
+        {
+          "word": "with",
+          "start": 30.77,
+          "end": 30.950001,
+          "duration": 0.18000100000000074
+        },
+        {
+          "word": "playback",
+          "start": 30.950001,
+          "end": 31.620001,
+          "duration": 0.6699999999999982
+        },
+        {
+          "word": "keyboard",
+          "start": 31.940001,
+          "end": 32.310001,
+          "duration": 0.370000000000001
+        },
+        {
+          "word": "shortcuts",
+          "start": 32.310001,
+          "end": 32.810001,
+          "duration": 0.5
+        },
+        {
+          "word": "for",
+          "start": 32.810001,
+          "end": 32.959999,
+          "duration": 0.14999800000000363
+        },
+        {
+          "word": "accessible",
+          "start": 32.959999,
+          "end": 33.459999,
+          "duration": 0.5
+        },
+        {
+          "word": "navigation",
+          "start": 33.459999,
+          "end": 34.240002,
+          "duration": 0.7800029999999936
+        },
+        {
+          "word": "mini",
+          "start": 35.200001,
+          "end": 35.43,
+          "duration": 0.2299989999999994
+        },
+        {
+          "word": "player",
+          "start": 35.43,
+          "end": 35.790001,
+          "duration": 0.3600009999999969
+        },
+        {
+          "word": "that",
+          "start": 35.790001,
+          "end": 35.950001,
+          "duration": 0.1600000000000037
+        },
+        {
+          "word": "sticks",
+          "start": 35.950001,
+          "end": 36.360001,
+          "duration": 0.4099999999999966
+        },
+        {
+          "word": "when",
+          "start": 36.360001,
+          "end": 36.490002,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "scrolling",
+          "start": 36.490002,
+          "end": 37.130001,
+          "duration": 0.6399990000000031
+        },
+        {
+          "word": "fifty",
+          "start": 38.25,
+          "end": 38.59,
+          "duration": 0.3400000000000034
+        },
+        {
+          "word": "seven",
+          "start": 38.59,
+          "end": 38.950001,
+          "duration": 0.3600009999999969
+        },
+        {
+          "word": "languages",
+          "start": 38.950001,
+          "end": 39.580002,
+          "duration": 0.630001
+        },
+        {
+          "word": "supported",
+          "start": 39.580002,
+          "end": 40.16,
+          "duration": 0.5799979999999962
+        },
+        {
+          "word": "for",
+          "start": 40.16,
+          "end": 40.290001,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "global",
+          "start": 40.290001,
+          "end": 40.709999,
+          "duration": 0.41999800000000675
+        },
+        {
+          "word": "reach",
+          "start": 40.709999,
+          "end": 41.189999,
+          "duration": 0.4799999999999969
+        },
+        {
+          "word": "try",
+          "start": 41.619999,
+          "end": 41.849998,
+          "duration": 0.2299989999999994
+        },
+        {
+          "word": "it",
+          "start": 41.849998,
+          "end": 41.970001,
+          "duration": 0.12000300000000408
+        },
+        {
+          "word": "out",
+          "start": 41.970001,
+          "end": 42.23,
+          "duration": 0.25999899999999343
+        },
+        {
+          "word": "press",
+          "start": 42.66,
+          "end": 42.880001,
+          "duration": 0.22000100000000344
+        },
+        {
+          "word": "the",
+          "start": 42.880001,
+          "end": 42.990002,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "play",
+          "start": 42.990002,
+          "end": 43.220001,
+          "duration": 0.2299990000000065
+        },
+        {
+          "word": "button",
+          "start": 43.220001,
+          "end": 43.509998,
+          "duration": 0.2899969999999996
+        },
+        {
+          "word": "above",
+          "start": 43.509998,
+          "end": 43.889999,
+          "duration": 0.38000100000000003
+        },
+        {
+          "word": "to",
+          "start": 43.889999,
+          "end": 43.990002,
+          "duration": 0.10000299999999385
+        },
+        {
+          "word": "hear",
+          "start": 43.990002,
+          "end": 44.18,
+          "duration": 0.18999800000000278
+        },
+        {
+          "word": "this",
+          "start": 44.18,
+          "end": 44.349998,
+          "duration": 0.16999799999999965
+        },
+        {
+          "word": "post",
+          "start": 44.349998,
+          "end": 44.700001,
+          "duration": 0.35000300000000095
+        },
+        {
+          "word": "narrated",
+          "start": 44.700001,
+          "end": 45.220001,
+          "duration": 0.5200000000000031
+        },
+        {
+          "word": "watch",
+          "start": 45.91,
+          "end": 46.18,
+          "duration": 0.2700000000000031
+        },
+        {
+          "word": "as",
+          "start": 46.18,
+          "end": 46.34,
+          "duration": 0.1600000000000037
+        },
+        {
+          "word": "each",
+          "start": 46.34,
+          "end": 46.560001,
+          "duration": 0.22000099999999634
+        },
+        {
+          "word": "word",
+          "start": 46.560001,
+          "end": 46.790001,
+          "duration": 0.22999999999999687
+        },
+        {
+          "word": "highlights",
+          "start": 46.790001,
+          "end": 47.299999,
+          "duration": 0.5099980000000031
+        },
+        {
+          "word": "in",
+          "start": 47.299999,
+          "end": 47.400002,
+          "duration": 0.10000300000000095
+        },
+        {
+          "word": "sync",
+          "start": 47.400002,
+          "end": 47.759998,
+          "duration": 0.3599960000000024
+        },
+        {
+          "word": "with",
+          "start": 47.759998,
+          "end": 47.880001,
+          "duration": 0.12000299999999697
+        },
+        {
+          "word": "the",
+          "start": 47.880001,
+          "end": 48,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "audio",
+          "start": 48,
+          "end": 48.52,
+          "duration": 0.5200000000000031
+        },
+        {
+          "word": "you",
+          "start": 48.700001,
+          "end": 48.799999,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "can",
+          "start": 48.799999,
+          "end": 48.939999,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "adjust",
+          "start": 48.939999,
+          "end": 49.34,
+          "duration": 0.40000100000000316
+        },
+        {
+          "word": "the",
+          "start": 49.34,
+          "end": 49.41,
+          "duration": 0.06999999999999318
+        },
+        {
+          "word": "speed",
+          "start": 49.41,
+          "end": 49.990002,
+          "duration": 0.5800020000000004
+        },
+        {
+          "word": "toggle",
+          "start": 50.23,
+          "end": 50.57,
+          "duration": 0.3400000000000034
+        },
+        {
+          "word": "highlighting",
+          "start": 50.57,
+          "end": 51.07,
+          "duration": 0.5
+        },
+        {
+          "word": "on",
+          "start": 51.07,
+          "end": 51.27,
+          "duration": 0.20000000000000284
+        },
+        {
+          "word": "or",
+          "start": 51.27,
+          "end": 51.41,
+          "duration": 0.13999999999999346
+        },
+        {
+          "word": "off",
+          "start": 51.41,
+          "end": 51.779999,
+          "duration": 0.36999899999999997
+        },
+        {
+          "word": "and",
+          "start": 51.889999,
+          "end": 52.02,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "use",
+          "start": 52.02,
+          "end": 52.200001,
+          "duration": 0.1800009999999972
+        },
+        {
+          "word": "keyboard",
+          "start": 52.200001,
+          "end": 52.630001,
+          "duration": 0.4299999999999997
+        },
+        {
+          "word": "shortcuts",
+          "start": 52.630001,
+          "end": 53.23,
+          "duration": 0.5999989999999968
+        },
+        {
+          "word": "like",
+          "start": 53.23,
+          "end": 53.419998,
+          "duration": 0.18999800000000278
+        },
+        {
+          "word": "space",
+          "start": 53.419998,
+          "end": 53.84,
+          "duration": 0.42000200000000376
+        },
+        {
+          "word": "to",
+          "start": 53.84,
+          "end": 53.950001,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "play",
+          "start": 53.950001,
+          "end": 54.290001,
+          "duration": 0.3399999999999963
+        },
+        {
+          "word": "or",
+          "start": 54.290001,
+          "end": 54.439999,
+          "duration": 0.14999800000000363
+        },
+        {
+          "word": "pause",
+          "start": 54.439999,
+          "end": 55.009998,
+          "duration": 0.5699990000000028
+        },
+        {
+          "word": "that's",
+          "start": 55.990002,
+          "end": 56.200001,
+          "duration": 0.20999900000000338
+        },
+        {
+          "word": "all",
+          "start": 56.200001,
+          "end": 56.360001,
+          "duration": 0.1599999999999966
+        },
+        {
+          "word": "for",
+          "start": 56.360001,
+          "end": 56.52,
+          "duration": 0.15999900000000622
+        },
+        {
+          "word": "this",
+          "start": 56.52,
+          "end": 56.700001,
+          "duration": 0.1800009999999972
+        },
+        {
+          "word": "quick",
+          "start": 56.700001,
+          "end": 56.990002,
+          "duration": 0.2900009999999966
+        },
+        {
+          "word": "intro",
+          "start": 56.990002,
+          "end": 57.439999,
+          "duration": 0.4499970000000033
+        },
+        {
+          "word": "check",
+          "start": 57.59,
+          "end": 57.830002,
+          "duration": 0.24000199999999694
+        },
+        {
+          "word": "out",
+          "start": 57.830002,
+          "end": 58.080002,
+          "duration": 0.25
+        },
+        {
+          "word": "the",
+          "start": 58.130001,
+          "end": 58.259998,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "longer",
+          "start": 58.259998,
+          "end": 58.720001,
+          "duration": 0.4600030000000004
+        },
+        {
+          "word": "post",
+          "start": 58.720001,
+          "end": 59.110001,
+          "duration": 0.38999999999999346
+        },
+        {
+          "word": "for",
+          "start": 59.110001,
+          "end": 59.279999,
+          "duration": 0.16999799999999965
+        },
+        {
+          "word": "a",
+          "start": 59.279999,
+          "end": 59.330002,
+          "duration": 0.050003000000003794
+        },
+        {
+          "word": "deeper",
+          "start": 59.330002,
+          "end": 59.700001,
+          "duration": 0.36999899999999997
+        },
+        {
+          "word": "dive",
+          "start": 59.700001,
+          "end": 60.040001,
+          "duration": 0.3399999999999963
+        },
+        {
+          "word": "into",
+          "start": 60.040001,
+          "end": 60.209999,
+          "duration": 0.16999800000000675
+        },
+        {
+          "word": "the",
+          "start": 60.209999,
+          "end": 60.299999,
+          "duration": 0.0899999999999963
+        },
+        {
+          "word": "technology",
+          "start": 60.299999,
+          "end": 60.990002,
+          "duration": 0.6900029999999973
+        },
+        {
+          "word": "behind",
+          "start": 60.990002,
+          "end": 61.419998,
+          "duration": 0.4299960000000027
+        },
+        {
+          "word": "vocasync",
+          "start": 61.419998,
+          "end": 62.060001,
+          "duration": 0.6400030000000001
+        }
+      ],
+      "duration": 62.060001,
+      "mathSpeech": {},
       "createdAt": "2026-02-02T15:56:46.921Z",
-      "updatedAt": "2026-02-04T14:45:02.082Z",
-      "publishableKey": "pk_55a1657b4f037a0e31aa5d06c39ddea5"
+      "updatedAt": "2026-05-25T02:39:16.266Z"
     },
     "science-of-audio-learning": {
-      "projectUuid": "019c1f12-1e98-7000-a26a-e59d1233e790",
-      "contentHash": "b1a553c473087050443e1e21d5e7af9718acd1bf56ba7c125ca2875768c2d6a1",
-      "audioUrl": "https://vocasync.io/api/v1/stream/019c1f12-1e98-7000-a26a-e59d1233e790/synthesis",
-      "alignmentUrl": "https://vocasync.io/api/v1/stream/019c1f12-1e98-7000-a26a-e59d1233e790/alignment",
+      "contentHash": "4fd71bdb01f34a32827963d2489be52a11117d8ae146a01cf619b4878f9eb112",
+      "voice": "onyx",
+      "language": "en",
+      "format": "mp3",
+      "synthesisProjectUuid": "019e5d00-39cb-7000-834a-d4b08993e05b",
+      "synthesisPublishableKey": "pk_f0c9cc3c3da04a671f752b1c3072c7bc",
+      "audioUrl": "https://vocasync.io/api/v1/stream/019e5d00-39cb-7000-834a-d4b08993e05b/synthesis",
+      "alignmentProjectUuid": "019e5d00-fb61-7000-a495-0b7f1de58006",
+      "alignmentPublishableKey": "pk_3c0f482f32e5f166e0bd6baca02aca4f",
+      "words": [
+        {
+          "word": "reading",
+          "start": 0.05,
+          "end": 0.33,
+          "duration": 0.28
+        },
+        {
+          "word": "is",
+          "start": 0.33,
+          "end": 0.45,
+          "duration": 0.12
+        },
+        {
+          "word": "fundamental",
+          "start": 0.45,
+          "end": 1.04,
+          "duration": 0.5900000000000001
+        },
+        {
+          "word": "to",
+          "start": 1.04,
+          "end": 1.18,
+          "duration": 0.1399999999999999
+        },
+        {
+          "word": "learning",
+          "start": 1.18,
+          "end": 1.67,
+          "duration": 0.49
+        },
+        {
+          "word": "but",
+          "start": 2.03,
+          "end": 2.14,
+          "duration": 0.11000000000000032
+        },
+        {
+          "word": "it's",
+          "start": 2.14,
+          "end": 2.28,
+          "duration": 0.13999999999999968
+        },
+        {
+          "word": "not",
+          "start": 2.28,
+          "end": 2.47,
+          "duration": 0.1900000000000004
+        },
+        {
+          "word": "the",
+          "start": 2.47,
+          "end": 2.59,
+          "duration": 0.11999999999999966
+        },
+        {
+          "word": "only",
+          "start": 2.59,
+          "end": 2.84,
+          "duration": 0.25
+        },
+        {
+          "word": "way",
+          "start": 2.84,
+          "end": 3.07,
+          "duration": 0.22999999999999998
+        },
+        {
+          "word": "we",
+          "start": 3.07,
+          "end": 3.22,
+          "duration": 0.15000000000000036
+        },
+        {
+          "word": "absorb",
+          "start": 3.22,
+          "end": 3.59,
+          "duration": 0.36999999999999966
+        },
+        {
+          "word": "information",
+          "start": 3.59,
+          "end": 4.22,
+          "duration": 0.6299999999999999
+        },
+        {
+          "word": "audio",
+          "start": 5.12,
+          "end": 5.48,
+          "duration": 0.3600000000000003
+        },
+        {
+          "word": "has",
+          "start": 5.48,
+          "end": 5.66,
+          "duration": 0.17999999999999972
+        },
+        {
+          "word": "long",
+          "start": 5.66,
+          "end": 5.91,
+          "duration": 0.25
+        },
+        {
+          "word": "been",
+          "start": 5.91,
+          "end": 6.06,
+          "duration": 0.14999999999999947
+        },
+        {
+          "word": "recognized",
+          "start": 6.06,
+          "end": 6.68,
+          "duration": 0.6200000000000001
+        },
+        {
+          "word": "as",
+          "start": 6.68,
+          "end": 6.78,
+          "duration": 0.10000000000000053
+        },
+        {
+          "word": "a",
+          "start": 6.78,
+          "end": 6.82,
+          "duration": 0.040000000000000036
+        },
+        {
+          "word": "powerful",
+          "start": 6.82,
+          "end": 7.29,
+          "duration": 0.46999999999999975
+        },
+        {
+          "word": "medium",
+          "start": 7.29,
+          "end": 7.72,
+          "duration": 0.4299999999999997
+        },
+        {
+          "word": "for",
+          "start": 7.72,
+          "end": 7.86,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "education",
+          "start": 7.9,
+          "end": 8.56,
+          "duration": 0.6600000000000001
+        },
+        {
+          "word": "and",
+          "start": 8.56,
+          "end": 8.69,
+          "duration": 0.129999999999999
+        },
+        {
+          "word": "storytelling",
+          "start": 8.69,
+          "end": 9.42,
+          "duration": 0.7300000000000004
+        },
+        {
+          "word": "when",
+          "start": 10.1,
+          "end": 10.25,
+          "duration": 0.15000000000000036
+        },
+        {
+          "word": "combined",
+          "start": 10.25,
+          "end": 10.65,
+          "duration": 0.40000000000000036
+        },
+        {
+          "word": "with",
+          "start": 10.65,
+          "end": 10.76,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "synchronized",
+          "start": 10.76,
+          "end": 11.31,
+          "duration": 0.5500000000000007
+        },
+        {
+          "word": "visual",
+          "start": 11.31,
+          "end": 11.64,
+          "duration": 0.33000000000000007
+        },
+        {
+          "word": "text",
+          "start": 11.64,
+          "end": 12.25,
+          "duration": 0.6099999999999994
+        },
+        {
+          "word": "something",
+          "start": 12.56,
+          "end": 12.91,
+          "duration": 0.34999999999999964
+        },
+        {
+          "word": "remarkable",
+          "start": 12.91,
+          "end": 13.41,
+          "duration": 0.5
+        },
+        {
+          "word": "happens",
+          "start": 13.41,
+          "end": 14,
+          "duration": 0.5899999999999999
+        },
+        {
+          "word": "comprehension",
+          "start": 14.61,
+          "end": 15.32,
+          "duration": 0.7100000000000009
+        },
+        {
+          "word": "improves",
+          "start": 15.32,
+          "end": 15.76,
+          "duration": 0.4399999999999995
+        },
+        {
+          "word": "dramatically",
+          "start": 15.76,
+          "end": 16.440001,
+          "duration": 0.680000999999999
+        },
+        {
+          "word": "the",
+          "start": 17.24,
+          "end": 17.32,
+          "duration": 0.08000000000000185
+        },
+        {
+          "word": "dual",
+          "start": 17.32,
+          "end": 17.58,
+          "duration": 0.259999999999998
+        },
+        {
+          "word": "coding",
+          "start": 17.58,
+          "end": 17.93,
+          "duration": 0.3500000000000014
+        },
+        {
+          "word": "theory",
+          "start": 17.93,
+          "end": 18.35,
+          "duration": 0.4200000000000017
+        },
+        {
+          "word": "cognitive",
+          "start": 19.25,
+          "end": 19.700001,
+          "duration": 0.4500010000000003
+        },
+        {
+          "word": "psychologist",
+          "start": 19.700001,
+          "end": 20.49,
+          "duration": 0.7899989999999981
+        },
+        {
+          "word": "allan",
+          "start": 20.549999,
+          "end": 20.85,
+          "duration": 0.30000100000000174
+        },
+        {
+          "word": "paivio",
+          "start": 20.85,
+          "end": 21.42,
+          "duration": 0.5700000000000003
+        },
+        {
+          "word": "introduced",
+          "start": 21.459999,
+          "end": 22.01,
+          "duration": 0.5500010000000017
+        },
+        {
+          "word": "the",
+          "start": 22.01,
+          "end": 22.08,
+          "duration": 0.06999999999999673
+        },
+        {
+          "word": "dual",
+          "start": 22.08,
+          "end": 22.34,
+          "duration": 0.26000000000000156
+        },
+        {
+          "word": "coding",
+          "start": 22.34,
+          "end": 22.700001,
+          "duration": 0.36000100000000046
+        },
+        {
+          "word": "theory",
+          "start": 22.700001,
+          "end": 23.059999,
+          "duration": 0.35999800000000093
+        },
+        {
+          "word": "in",
+          "start": 23.059999,
+          "end": 23.129999,
+          "duration": 0.07000000000000028
+        },
+        {
+          "word": "the",
+          "start": 23.129999,
+          "end": 23.209999,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "one",
+          "start": 23.209999,
+          "end": 23.42,
+          "duration": 0.21000100000000188
+        },
+        {
+          "word": "thousand",
+          "start": 23.42,
+          "end": 23.790001,
+          "duration": 0.37000099999999847
+        },
+        {
+          "word": "nine",
+          "start": 23.790001,
+          "end": 23.98,
+          "duration": 0.18999900000000025
+        },
+        {
+          "word": "hundred",
+          "start": 23.98,
+          "end": 24.280001,
+          "duration": 0.3000009999999982
+        },
+        {
+          "word": "seventys",
+          "start": 24.280001,
+          "end": 24.860001,
+          "duration": 0.5800000000000018
+        },
+        {
+          "word": "the",
+          "start": 26.040001,
+          "end": 26.16,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "idea",
+          "start": 26.16,
+          "end": 26.450001,
+          "duration": 0.2900010000000002
+        },
+        {
+          "word": "is",
+          "start": 26.450001,
+          "end": 26.549999,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "simple",
+          "start": 26.549999,
+          "end": 26.99,
+          "duration": 0.44000099999999875
+        },
+        {
+          "word": "yet",
+          "start": 26.99,
+          "end": 27.17,
+          "duration": 0.18000000000000327
+        },
+        {
+          "word": "profound",
+          "start": 27.17,
+          "end": 27.68,
+          "duration": 0.509999999999998
+        },
+        {
+          "word": "we",
+          "start": 28.290001,
+          "end": 28.389999,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "process",
+          "start": 28.389999,
+          "end": 28.91,
+          "duration": 0.5200010000000006
+        },
+        {
+          "word": "verbal",
+          "start": 28.91,
+          "end": 29.440001,
+          "duration": 0.5300009999999986
+        },
+        {
+          "word": "and",
+          "start": 29.469999,
+          "end": 29.620001,
+          "duration": 0.15000199999999708
+        },
+        {
+          "word": "visual",
+          "start": 29.620001,
+          "end": 30.02,
+          "duration": 0.3999990000000011
+        },
+        {
+          "word": "information",
+          "start": 30.02,
+          "end": 30.700001,
+          "duration": 0.6800010000000007
+        },
+        {
+          "word": "through",
+          "start": 30.700001,
+          "end": 30.860001,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "separate",
+          "start": 30.860001,
+          "end": 31.309999,
+          "duration": 0.4499980000000008
+        },
+        {
+          "word": "channels",
+          "start": 31.309999,
+          "end": 31.75,
+          "duration": 0.44000099999999875
+        },
+        {
+          "word": "in",
+          "start": 31.75,
+          "end": 31.84,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "our",
+          "start": 31.84,
+          "end": 31.940001,
+          "duration": 0.1000009999999989
+        },
+        {
+          "word": "brain",
+          "start": 31.940001,
+          "end": 32.389999,
+          "duration": 0.44999800000000434
+        },
+        {
+          "word": "when",
+          "start": 33.509998,
+          "end": 33.669998,
+          "duration": 0.1599999999999966
+        },
+        {
+          "word": "both",
+          "start": 33.669998,
+          "end": 33.98,
+          "duration": 0.3100019999999972
+        },
+        {
+          "word": "channels",
+          "start": 33.98,
+          "end": 34.419998,
+          "duration": 0.4399980000000028
+        },
+        {
+          "word": "are",
+          "start": 34.419998,
+          "end": 34.529999,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "engaged",
+          "start": 34.529999,
+          "end": 35.009998,
+          "duration": 0.4799990000000065
+        },
+        {
+          "word": "simultaneously",
+          "start": 35.009998,
+          "end": 36.119999,
+          "duration": 1.110000999999997
+        },
+        {
+          "word": "learning",
+          "start": 36.209999,
+          "end": 36.529999,
+          "duration": 0.3199999999999932
+        },
+        {
+          "word": "becomes",
+          "start": 36.529999,
+          "end": 36.93,
+          "duration": 0.40000100000000316
+        },
+        {
+          "word": "more",
+          "start": 36.93,
+          "end": 37.130001,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "effective",
+          "start": 37.130001,
+          "end": 37.740002,
+          "duration": 0.6100009999999969
+        },
+        {
+          "word": "think",
+          "start": 38.759998,
+          "end": 38.93,
+          "duration": 0.17000199999999666
+        },
+        {
+          "word": "about",
+          "start": 38.93,
+          "end": 39.209999,
+          "duration": 0.27999900000000366
+        },
+        {
+          "word": "watching",
+          "start": 39.209999,
+          "end": 39.580002,
+          "duration": 0.370002999999997
+        },
+        {
+          "word": "a",
+          "start": 39.580002,
+          "end": 39.630001,
+          "duration": 0.04999899999999968
+        },
+        {
+          "word": "foreign",
+          "start": 39.630001,
+          "end": 40.009998,
+          "duration": 0.379997000000003
+        },
+        {
+          "word": "film",
+          "start": 40.009998,
+          "end": 40.32,
+          "duration": 0.3100019999999972
+        },
+        {
+          "word": "with",
+          "start": 40.32,
+          "end": 40.439999,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "subtitles",
+          "start": 40.439999,
+          "end": 41.27,
+          "duration": 0.8300010000000029
+        },
+        {
+          "word": "you",
+          "start": 41.759998,
+          "end": 41.869999,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "hear",
+          "start": 41.869999,
+          "end": 42.07,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "the",
+          "start": 42.07,
+          "end": 42.169998,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "dialogue",
+          "start": 42.169998,
+          "end": 42.860001,
+          "duration": 0.6900029999999973
+        },
+        {
+          "word": "while",
+          "start": 42.860001,
+          "end": 43.080002,
+          "duration": 0.22000100000000344
+        },
+        {
+          "word": "reading",
+          "start": 43.080002,
+          "end": 43.41,
+          "duration": 0.32999799999999624
+        },
+        {
+          "word": "the",
+          "start": 43.41,
+          "end": 43.490002,
+          "duration": 0.08000200000000035
+        },
+        {
+          "word": "translation",
+          "start": 43.490002,
+          "end": 44.279999,
+          "duration": 0.7899969999999996
+        },
+        {
+          "word": "your",
+          "start": 45.009998,
+          "end": 45.119999,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "brain",
+          "start": 45.119999,
+          "end": 45.459999,
+          "duration": 0.3400000000000034
+        },
+        {
+          "word": "is",
+          "start": 45.459999,
+          "end": 45.59,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "working",
+          "start": 45.59,
+          "end": 46.009998,
+          "duration": 0.41999799999999965
+        },
+        {
+          "word": "on",
+          "start": 46.009998,
+          "end": 46.18,
+          "duration": 0.17000199999999666
+        },
+        {
+          "word": "two",
+          "start": 46.18,
+          "end": 46.41,
+          "duration": 0.22999999999999687
+        },
+        {
+          "word": "fronts",
+          "start": 46.41,
+          "end": 47.02,
+          "duration": 0.6100000000000065
+        },
+        {
+          "word": "and",
+          "start": 47.200001,
+          "end": 47.330002,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "the",
+          "start": 47.330002,
+          "end": 47.380001,
+          "duration": 0.04999899999999968
+        },
+        {
+          "word": "experience",
+          "start": 47.380001,
+          "end": 47.98,
+          "duration": 0.5999989999999968
+        },
+        {
+          "word": "feels",
+          "start": 47.98,
+          "end": 48.299999,
+          "duration": 0.3199990000000028
+        },
+        {
+          "word": "richer",
+          "start": 48.299999,
+          "end": 48.610001,
+          "duration": 0.3100019999999972
+        },
+        {
+          "word": "for",
+          "start": 48.610001,
+          "end": 48.91,
+          "duration": 0.2999989999999997
+        },
+        {
+          "word": "it",
+          "start": 48.91,
+          "end": 49,
+          "duration": 0.09000000000000341
+        },
+        {
+          "word": "vocasync",
+          "start": 50.09,
+          "end": 50.73,
+          "duration": 0.6399999999999935
+        },
+        {
+          "word": "applies",
+          "start": 50.73,
+          "end": 51.259998,
+          "duration": 0.5299980000000062
+        },
+        {
+          "word": "this",
+          "start": 51.259998,
+          "end": 51.470001,
+          "duration": 0.21000300000000038
+        },
+        {
+          "word": "same",
+          "start": 51.470001,
+          "end": 51.880001,
+          "duration": 0.4099999999999966
+        },
+        {
+          "word": "principle",
+          "start": 51.880001,
+          "end": 52.41,
+          "duration": 0.5299989999999966
+        },
+        {
+          "word": "to",
+          "start": 52.41,
+          "end": 52.549999,
+          "duration": 0.1399990000000031
+        },
+        {
+          "word": "written",
+          "start": 52.549999,
+          "end": 52.869999,
+          "duration": 0.3200000000000003
+        },
+        {
+          "word": "content",
+          "start": 52.869999,
+          "end": 53.439999,
+          "duration": 0.5700000000000003
+        },
+        {
+          "word": "by",
+          "start": 53.529999,
+          "end": 53.650002,
+          "duration": 0.12000300000000408
+        },
+        {
+          "word": "adding",
+          "start": 53.650002,
+          "end": 54.009998,
+          "duration": 0.3599960000000024
+        },
+        {
+          "word": "an",
+          "start": 54.009998,
+          "end": 54.110001,
+          "duration": 0.10000299999999385
+        },
+        {
+          "word": "audio",
+          "start": 54.16,
+          "end": 54.560001,
+          "duration": 0.40000100000000316
+        },
+        {
+          "word": "layer",
+          "start": 54.560001,
+          "end": 54.860001,
+          "duration": 0.29999999999999716
+        },
+        {
+          "word": "with",
+          "start": 54.860001,
+          "end": 55.07,
+          "duration": 0.20999900000000338
+        },
+        {
+          "word": "real",
+          "start": 55.07,
+          "end": 55.310001,
+          "duration": 0.24000099999999946
+        },
+        {
+          "word": "time",
+          "start": 55.310001,
+          "end": 55.66,
+          "duration": 0.34999899999999684
+        },
+        {
+          "word": "word",
+          "start": 55.66,
+          "end": 55.869999,
+          "duration": 0.20999900000000338
+        },
+        {
+          "word": "highlighting",
+          "start": 55.869999,
+          "end": 56.459999,
+          "duration": 0.5900000000000034
+        },
+        {
+          "word": "why",
+          "start": 56.860001,
+          "end": 57.060001,
+          "duration": 0.20000000000000284
+        },
+        {
+          "word": "word",
+          "start": 57.060001,
+          "end": 57.34,
+          "duration": 0.27999900000000366
+        },
+        {
+          "word": "level",
+          "start": 57.34,
+          "end": 57.57,
+          "duration": 0.22999999999999687
+        },
+        {
+          "word": "synchronization",
+          "start": 57.57,
+          "end": 58.369999,
+          "duration": 0.7999989999999997
+        },
+        {
+          "word": "matters",
+          "start": 58.369999,
+          "end": 58.830002,
+          "duration": 0.4600030000000004
+        },
+        {
+          "word": "traditional",
+          "start": 59.57,
+          "end": 60.09,
+          "duration": 0.5200000000000031
+        },
+        {
+          "word": "audiobooks",
+          "start": 60.09,
+          "end": 60.75,
+          "duration": 0.6599999999999966
+        },
+        {
+          "word": "have",
+          "start": 60.75,
+          "end": 60.900002,
+          "duration": 0.15000200000000063
+        },
+        {
+          "word": "a",
+          "start": 60.900002,
+          "end": 60.93,
+          "duration": 0.02999799999999908
+        },
+        {
+          "word": "disconnect",
+          "start": 60.93,
+          "end": 61.650002,
+          "duration": 0.7200020000000009
+        },
+        {
+          "word": "you",
+          "start": 62.200001,
+          "end": 62.32,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "listen",
+          "start": 62.32,
+          "end": 62.610001,
+          "duration": 0.2900009999999966
+        },
+        {
+          "word": "to",
+          "start": 62.610001,
+          "end": 62.720001,
+          "duration": 0.11000000000000654
+        },
+        {
+          "word": "the",
+          "start": 62.720001,
+          "end": 62.810001,
+          "duration": 0.0899999999999963
+        },
+        {
+          "word": "narrator",
+          "start": 62.810001,
+          "end": 63.27,
+          "duration": 0.4599990000000034
+        },
+        {
+          "word": "while",
+          "start": 63.27,
+          "end": 63.41,
+          "duration": 0.13999999999999346
+        },
+        {
+          "word": "staring",
+          "start": 63.41,
+          "end": 63.869999,
+          "duration": 0.4599990000000034
+        },
+        {
+          "word": "at",
+          "start": 63.869999,
+          "end": 63.98,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "static",
+          "start": 63.98,
+          "end": 64.349998,
+          "duration": 0.3699980000000025
+        },
+        {
+          "word": "text",
+          "start": 64.389999,
+          "end": 64.860001,
+          "duration": 0.4700019999999938
+        },
+        {
+          "word": "often",
+          "start": 64.989998,
+          "end": 65.360001,
+          "duration": 0.370002999999997
+        },
+        {
+          "word": "losing",
+          "start": 65.360001,
+          "end": 65.660004,
+          "duration": 0.3000030000000038
+        },
+        {
+          "word": "your",
+          "start": 65.660004,
+          "end": 65.75,
+          "duration": 0.0899959999999993
+        },
+        {
+          "word": "place",
+          "start": 65.75,
+          "end": 66.260002,
+          "duration": 0.5100020000000001
+        },
+        {
+          "word": "word",
+          "start": 67,
+          "end": 67.25,
+          "duration": 0.25
+        },
+        {
+          "word": "level",
+          "start": 67.25,
+          "end": 67.470001,
+          "duration": 0.22000099999999634
+        },
+        {
+          "word": "synchronization",
+          "start": 67.470001,
+          "end": 68.32,
+          "duration": 0.8499989999999968
+        },
+        {
+          "word": "solves",
+          "start": 68.32,
+          "end": 68.709999,
+          "duration": 0.3899990000000031
+        },
+        {
+          "word": "this",
+          "start": 68.709999,
+          "end": 68.839996,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "problem",
+          "start": 68.839996,
+          "end": 69.290001,
+          "duration": 0.45000500000000443
+        },
+        {
+          "word": "elegantly",
+          "start": 69.370003,
+          "end": 70.019997,
+          "duration": 0.6499940000000066
+        },
+        {
+          "word": "each",
+          "start": 70.730003,
+          "end": 71,
+          "duration": 0.2699970000000036
+        },
+        {
+          "word": "word",
+          "start": 71,
+          "end": 71.349998,
+          "duration": 0.34999799999999937
+        },
+        {
+          "word": "illuminates",
+          "start": 71.389999,
+          "end": 71.949997,
+          "duration": 0.5599979999999931
+        },
+        {
+          "word": "precisely",
+          "start": 71.949997,
+          "end": 72.599998,
+          "duration": 0.6500010000000032
+        },
+        {
+          "word": "when",
+          "start": 72.599998,
+          "end": 72.75,
+          "duration": 0.15000200000000063
+        },
+        {
+          "word": "it's",
+          "start": 72.75,
+          "end": 72.879997,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "spoken",
+          "start": 72.879997,
+          "end": 73.379997,
+          "duration": 0.5
+        },
+        {
+          "word": "your",
+          "start": 73.959999,
+          "end": 74.089996,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "eyes",
+          "start": 74.129997,
+          "end": 74.449997,
+          "duration": 0.3199999999999932
+        },
+        {
+          "word": "follow",
+          "start": 74.449997,
+          "end": 74.830002,
+          "duration": 0.38000499999999704
+        },
+        {
+          "word": "naturally",
+          "start": 74.830002,
+          "end": 75.559998,
+          "duration": 0.7299959999999999
+        },
+        {
+          "word": "almost",
+          "start": 75.989998,
+          "end": 76.400002,
+          "duration": 0.4100040000000007
+        },
+        {
+          "word": "effortlessly",
+          "start": 76.459999,
+          "end": 77.18,
+          "duration": 0.7200010000000105
+        },
+        {
+          "word": "this",
+          "start": 77.93,
+          "end": 78.089996,
+          "duration": 0.15999599999999248
+        },
+        {
+          "word": "creates",
+          "start": 78.089996,
+          "end": 78.470001,
+          "duration": 0.38000499999999704
+        },
+        {
+          "word": "a",
+          "start": 78.470001,
+          "end": 78.540001,
+          "duration": 0.07000000000000739
+        },
+        {
+          "word": "reading",
+          "start": 78.540001,
+          "end": 78.889999,
+          "duration": 0.34999799999999937
+        },
+        {
+          "word": "assistant",
+          "start": 78.889999,
+          "end": 79.370003,
+          "duration": 0.4800039999999939
+        },
+        {
+          "word": "effect",
+          "start": 79.400002,
+          "end": 79.959999,
+          "duration": 0.5599969999999956
+        },
+        {
+          "word": "where",
+          "start": 79.959999,
+          "end": 80.080002,
+          "duration": 0.12000299999999697
+        },
+        {
+          "word": "the",
+          "start": 80.080002,
+          "end": 80.209999,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "audio",
+          "start": 80.209999,
+          "end": 80.589996,
+          "duration": 0.379997000000003
+        },
+        {
+          "word": "guides",
+          "start": 80.589996,
+          "end": 81.040001,
+          "duration": 0.45000500000000443
+        },
+        {
+          "word": "your",
+          "start": 81.040001,
+          "end": 81.139999,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "visual",
+          "start": 81.139999,
+          "end": 81.540001,
+          "duration": 0.40000200000000063
+        },
+        {
+          "word": "attention",
+          "start": 81.540001,
+          "end": 82.089996,
+          "duration": 0.5499949999999956
+        },
+        {
+          "word": "readers",
+          "start": 82.830002,
+          "end": 83.160004,
+          "duration": 0.33000200000000746
+        },
+        {
+          "word": "report",
+          "start": 83.160004,
+          "end": 83.550003,
+          "duration": 0.3899990000000031
+        },
+        {
+          "word": "feeling",
+          "start": 83.550003,
+          "end": 83.900002,
+          "duration": 0.34999899999999684
+        },
+        {
+          "word": "more",
+          "start": 83.900002,
+          "end": 84.120003,
+          "duration": 0.22000099999999634
+        },
+        {
+          "word": "engaged",
+          "start": 84.120003,
+          "end": 84.760002,
+          "duration": 0.6399990000000031
+        },
+        {
+          "word": "and",
+          "start": 84.809998,
+          "end": 84.959999,
+          "duration": 0.15000100000000316
+        },
+        {
+          "word": "less",
+          "start": 84.959999,
+          "end": 85.220001,
+          "duration": 0.26000200000000007
+        },
+        {
+          "word": "likely",
+          "start": 85.220001,
+          "end": 85.57,
+          "duration": 0.34999899999999684
+        },
+        {
+          "word": "to",
+          "start": 85.57,
+          "end": 85.650002,
+          "duration": 0.08000200000000746
+        },
+        {
+          "word": "get",
+          "start": 85.650002,
+          "end": 85.870003,
+          "duration": 0.22000099999999634
+        },
+        {
+          "word": "distracted",
+          "start": 85.870003,
+          "end": 86.529999,
+          "duration": 0.6599960000000067
+        },
+        {
+          "word": "benefits",
+          "start": 86.650002,
+          "end": 87.099998,
+          "duration": 0.44999599999999873
+        },
+        {
+          "word": "for",
+          "start": 87.099998,
+          "end": 87.239998,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "different",
+          "start": 87.239998,
+          "end": 87.639999,
+          "duration": 0.40000100000000316
+        },
+        {
+          "word": "learners",
+          "start": 87.639999,
+          "end": 88.190002,
+          "duration": 0.5500030000000038
+        },
+        {
+          "word": "not",
+          "start": 88.800003,
+          "end": 89.010002,
+          "duration": 0.20999899999999627
+        },
+        {
+          "word": "everyone",
+          "start": 89.010002,
+          "end": 89.440002,
+          "duration": 0.4300000000000068
+        },
+        {
+          "word": "learns",
+          "start": 89.440002,
+          "end": 89.730003,
+          "duration": 0.2900009999999895
+        },
+        {
+          "word": "the",
+          "start": 89.730003,
+          "end": 89.82,
+          "duration": 0.08999699999999677
+        },
+        {
+          "word": "same",
+          "start": 89.82,
+          "end": 90.169998,
+          "duration": 0.3499980000000136
+        },
+        {
+          "word": "way",
+          "start": 90.169998,
+          "end": 90.510002,
+          "duration": 0.3400039999999933
+        },
+        {
+          "word": "visual",
+          "start": 91.169998,
+          "end": 91.580002,
+          "duration": 0.4100039999999865
+        },
+        {
+          "word": "learners",
+          "start": 91.580002,
+          "end": 91.919998,
+          "duration": 0.3399960000000135
+        },
+        {
+          "word": "prefer",
+          "start": 91.919998,
+          "end": 92.339996,
+          "duration": 0.41999799999999254
+        },
+        {
+          "word": "reading",
+          "start": 92.339996,
+          "end": 92.82,
+          "duration": 0.4800039999999939
+        },
+        {
+          "word": "auditory",
+          "start": 93.260002,
+          "end": 93.739998,
+          "duration": 0.47999599999999987
+        },
+        {
+          "word": "learners",
+          "start": 93.739998,
+          "end": 94.129997,
+          "duration": 0.3899990000000031
+        },
+        {
+          "word": "absorb",
+          "start": 94.129997,
+          "end": 94.510002,
+          "duration": 0.38000499999999704
+        },
+        {
+          "word": "information",
+          "start": 94.510002,
+          "end": 95.120003,
+          "duration": 0.6100009999999969
+        },
+        {
+          "word": "better",
+          "start": 95.120003,
+          "end": 95.449997,
+          "duration": 0.32999399999999923
+        },
+        {
+          "word": "through",
+          "start": 95.449997,
+          "end": 95.699997,
+          "duration": 0.25
+        },
+        {
+          "word": "listening",
+          "start": 95.699997,
+          "end": 96.160004,
+          "duration": 0.4600070000000045
+        },
+        {
+          "word": "most",
+          "start": 97.110001,
+          "end": 97.379997,
+          "duration": 0.2699960000000061
+        },
+        {
+          "word": "of",
+          "start": 97.379997,
+          "end": 97.480003,
+          "duration": 0.10000599999999338
+        },
+        {
+          "word": "us",
+          "start": 97.480003,
+          "end": 97.629997,
+          "duration": 0.14999400000000662
+        },
+        {
+          "word": "fall",
+          "start": 97.629997,
+          "end": 97.889999,
+          "duration": 0.26000200000000007
+        },
+        {
+          "word": "somewhere",
+          "start": 97.889999,
+          "end": 98.279999,
+          "duration": 0.39000000000000057
+        },
+        {
+          "word": "in",
+          "start": 98.279999,
+          "end": 98.370003,
+          "duration": 0.09000399999999331
+        },
+        {
+          "word": "between",
+          "start": 98.370003,
+          "end": 98.919998,
+          "duration": 0.5499950000000098
+        },
+        {
+          "word": "benefiting",
+          "start": 99.18,
+          "end": 99.730003,
+          "duration": 0.5500029999999896
+        },
+        {
+          "word": "from",
+          "start": 99.730003,
+          "end": 99.919998,
+          "duration": 0.18999500000001035
+        },
+        {
+          "word": "multimodal",
+          "start": 99.919998,
+          "end": 100.580002,
+          "duration": 0.6600039999999865
+        },
+        {
+          "word": "approaches",
+          "start": 100.580002,
+          "end": 101.230003,
+          "duration": 0.6500010000000032
+        },
+        {
+          "word": "for",
+          "start": 102.269997,
+          "end": 102.400002,
+          "duration": 0.13000499999999704
+        },
+        {
+          "word": "those",
+          "start": 102.400002,
+          "end": 102.68,
+          "duration": 0.2799980000000062
+        },
+        {
+          "word": "who",
+          "start": 102.68,
+          "end": 102.769997,
+          "duration": 0.08999699999999677
+        },
+        {
+          "word": "find",
+          "start": 102.769997,
+          "end": 103.099998,
+          "duration": 0.33000099999999577
+        },
+        {
+          "word": "reading",
+          "start": 103.099998,
+          "end": 103.379997,
+          "duration": 0.27999900000000366
+        },
+        {
+          "word": "challenging",
+          "start": 103.379997,
+          "end": 104.050003,
+          "duration": 0.6700060000000008
+        },
+        {
+          "word": "synchronized",
+          "start": 104.410004,
+          "end": 105.07,
+          "duration": 0.6599959999999925
+        },
+        {
+          "word": "audio",
+          "start": 105.07,
+          "end": 105.480003,
+          "duration": 0.4100030000000032
+        },
+        {
+          "word": "provides",
+          "start": 105.480003,
+          "end": 105.949997,
+          "duration": 0.4699939999999998
+        },
+        {
+          "word": "scaffolding",
+          "start": 105.949997,
+          "end": 106.660004,
+          "duration": 0.7100070000000045
+        },
+        {
+          "word": "the",
+          "start": 107.169998,
+          "end": 107.239998,
+          "duration": 0.06999999999999318
+        },
+        {
+          "word": "narration",
+          "start": 107.239998,
+          "end": 107.769997,
+          "duration": 0.5299990000000037
+        },
+        {
+          "word": "models",
+          "start": 107.769997,
+          "end": 108.160004,
+          "duration": 0.3900069999999971
+        },
+        {
+          "word": "proper",
+          "start": 108.160004,
+          "end": 108.580002,
+          "duration": 0.41999799999999254
+        },
+        {
+          "word": "pacing",
+          "start": 108.580002,
+          "end": 109.160004,
+          "duration": 0.5800020000000075
+        },
+        {
+          "word": "and",
+          "start": 109.190002,
+          "end": 109.349998,
+          "duration": 0.15999599999999248
+        },
+        {
+          "word": "pronunciation",
+          "start": 109.349998,
+          "end": 110.300003,
+          "duration": 0.9500050000000044
+        },
+        {
+          "word": "while",
+          "start": 110.349998,
+          "end": 110.540001,
+          "duration": 0.19000300000000436
+        },
+        {
+          "word": "highlighting",
+          "start": 110.540001,
+          "end": 111.129997,
+          "duration": 0.5899959999999993
+        },
+        {
+          "word": "keeps",
+          "start": 111.129997,
+          "end": 111.5,
+          "duration": 0.370002999999997
+        },
+        {
+          "word": "the",
+          "start": 111.5,
+          "end": 111.610001,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "reader",
+          "start": 111.610001,
+          "end": 111.949997,
+          "duration": 0.3399959999999993
+        },
+        {
+          "word": "oriented",
+          "start": 111.989998,
+          "end": 112.650002,
+          "duration": 0.6600040000000007
+        },
+        {
+          "word": "language",
+          "start": 112.760002,
+          "end": 113.110001,
+          "duration": 0.34999899999999684
+        },
+        {
+          "word": "learners",
+          "start": 113.110001,
+          "end": 113.459999,
+          "duration": 0.34999799999999937
+        },
+        {
+          "word": "benefit",
+          "start": 113.459999,
+          "end": 113.910004,
+          "duration": 0.45000500000000443
+        },
+        {
+          "word": "enormously",
+          "start": 113.910004,
+          "end": 114.620003,
+          "duration": 0.7099989999999963
+        },
+        {
+          "word": "from",
+          "start": 114.620003,
+          "end": 114.830002,
+          "duration": 0.20999899999999627
+        },
+        {
+          "word": "hearing",
+          "start": 114.830002,
+          "end": 115.150002,
+          "duration": 0.3200000000000074
+        },
+        {
+          "word": "correct",
+          "start": 115.150002,
+          "end": 115.519997,
+          "duration": 0.36999500000000296
+        },
+        {
+          "word": "pronunciation",
+          "start": 115.519997,
+          "end": 116.370003,
+          "duration": 0.8500059999999934
+        },
+        {
+          "word": "while",
+          "start": 116.449997,
+          "end": 116.610001,
+          "duration": 0.1600040000000007
+        },
+        {
+          "word": "seeing",
+          "start": 116.610001,
+          "end": 116.970001,
+          "duration": 0.35999999999999943
+        },
+        {
+          "word": "the",
+          "start": 116.970001,
+          "end": 117.029999,
+          "duration": 0.05999800000000732
+        },
+        {
+          "word": "text",
+          "start": 117.029999,
+          "end": 117.580002,
+          "duration": 0.5500029999999896
+        },
+        {
+          "word": "conclusion",
+          "start": 118.629997,
+          "end": 119.220001,
+          "duration": 0.5900039999999933
+        },
+        {
+          "word": "audio",
+          "start": 120.080002,
+          "end": 120.389999,
+          "duration": 0.30999700000000985
+        },
+        {
+          "word": "narration",
+          "start": 120.389999,
+          "end": 120.949997,
+          "duration": 0.5599979999999931
+        },
+        {
+          "word": "with",
+          "start": 120.949997,
+          "end": 121.059998,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "synchronized",
+          "start": 121.059998,
+          "end": 121.669998,
+          "duration": 0.6100000000000136
+        },
+        {
+          "word": "word",
+          "start": 121.669998,
+          "end": 121.910004,
+          "duration": 0.24000599999999395
+        },
+        {
+          "word": "highlighting",
+          "start": 121.910004,
+          "end": 122.519997,
+          "duration": 0.6099930000000029
+        },
+        {
+          "word": "isn't",
+          "start": 122.580002,
+          "end": 122.82,
+          "duration": 0.23999799999999993
+        },
+        {
+          "word": "just",
+          "start": 122.82,
+          "end": 123.059998,
+          "duration": 0.23999799999999993
+        },
+        {
+          "word": "a",
+          "start": 123.059998,
+          "end": 123.099998,
+          "duration": 0.04000000000000625
+        },
+        {
+          "word": "nice",
+          "start": 123.099998,
+          "end": 123.370003,
+          "duration": 0.2700049999999976
+        },
+        {
+          "word": "feature",
+          "start": 123.370003,
+          "end": 123.839996,
+          "duration": 0.4699930000000023
+        },
+        {
+          "word": "it's",
+          "start": 124.32,
+          "end": 124.449997,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "a",
+          "start": 124.449997,
+          "end": 124.489998,
+          "duration": 0.04000100000000373
+        },
+        {
+          "word": "fundamentally",
+          "start": 124.489998,
+          "end": 125.099998,
+          "duration": 0.6099999999999994
+        },
+        {
+          "word": "different",
+          "start": 125.099998,
+          "end": 125.480003,
+          "duration": 0.38000499999999704
+        },
+        {
+          "word": "way",
+          "start": 125.480003,
+          "end": 125.660004,
+          "duration": 0.1800010000000043
+        },
+        {
+          "word": "to",
+          "start": 125.660004,
+          "end": 125.800003,
+          "duration": 0.1399990000000031
+        },
+        {
+          "word": "experience",
+          "start": 125.800003,
+          "end": 126.43,
+          "duration": 0.629997000000003
+        },
+        {
+          "word": "written",
+          "start": 126.43,
+          "end": 126.669998,
+          "duration": 0.23999799999999993
+        },
+        {
+          "word": "content",
+          "start": 126.669998,
+          "end": 127.169998,
+          "duration": 0.5
+        },
+        {
+          "word": "by",
+          "start": 127.949997,
+          "end": 128.080002,
+          "duration": 0.13000500000001125
+        },
+        {
+          "word": "engaging",
+          "start": 128.080002,
+          "end": 128.589996,
+          "duration": 0.509994000000006
+        },
+        {
+          "word": "multiple",
+          "start": 128.589996,
+          "end": 129.009995,
+          "duration": 0.41999899999999
+        },
+        {
+          "word": "senses",
+          "start": 129.009995,
+          "end": 129.440002,
+          "duration": 0.43000699999998915
+        },
+        {
+          "word": "simultaneously",
+          "start": 129.440002,
+          "end": 130.479996,
+          "duration": 1.0399940000000072
+        },
+        {
+          "word": "readers",
+          "start": 130.619995,
+          "end": 130.929993,
+          "duration": 0.3099980000000073
+        },
+        {
+          "word": "stay",
+          "start": 130.929993,
+          "end": 131.110001,
+          "duration": 0.18000800000001504
+        },
+        {
+          "word": "focused",
+          "start": 131.110001,
+          "end": 131.789993,
+          "duration": 0.6799919999999986
+        },
+        {
+          "word": "comprehend",
+          "start": 131.960007,
+          "end": 132.5,
+          "duration": 0.5399930000000097
+        },
+        {
+          "word": "more",
+          "start": 132.5,
+          "end": 132.660004,
+          "duration": 0.1600039999999865
+        },
+        {
+          "word": "deeply",
+          "start": 132.660004,
+          "end": 133.210007,
+          "duration": 0.5500030000000038
+        },
+        {
+          "word": "and",
+          "start": 133.589996,
+          "end": 133.710007,
+          "duration": 0.12001099999997678
+        },
+        {
+          "word": "enjoy",
+          "start": 133.710007,
+          "end": 134.009995,
+          "duration": 0.29998800000001324
+        },
+        {
+          "word": "the",
+          "start": 134.009995,
+          "end": 134.080002,
+          "duration": 0.07000700000000393
+        },
+        {
+          "word": "process",
+          "start": 134.080002,
+          "end": 134.800003,
+          "duration": 0.7200009999999963
+        },
+        {
+          "word": "whether",
+          "start": 135.550003,
+          "end": 135.789993,
+          "duration": 0.23999000000000592
+        },
+        {
+          "word": "you're",
+          "start": 135.789993,
+          "end": 135.919998,
+          "duration": 0.13000499999998283
+        },
+        {
+          "word": "building",
+          "start": 135.919998,
+          "end": 136.289993,
+          "duration": 0.36999500000001717
+        },
+        {
+          "word": "a",
+          "start": 136.289993,
+          "end": 136.339996,
+          "duration": 0.050003000000003794
+        },
+        {
+          "word": "blog",
+          "start": 136.339996,
+          "end": 136.820007,
+          "duration": 0.4800109999999904
+        },
+        {
+          "word": "documentation",
+          "start": 137.059998,
+          "end": 137.809998,
+          "duration": 0.75
+        },
+        {
+          "word": "site",
+          "start": 137.809998,
+          "end": 138.149994,
+          "duration": 0.3399959999999851
+        },
+        {
+          "word": "or",
+          "start": 138.229996,
+          "end": 138.369995,
+          "duration": 0.13999899999998888
+        },
+        {
+          "word": "educational",
+          "start": 138.369995,
+          "end": 138.949997,
+          "duration": 0.5800020000000075
+        },
+        {
+          "word": "platform",
+          "start": 138.949997,
+          "end": 139.589996,
+          "duration": 0.6399990000000173
+        },
+        {
+          "word": "consider",
+          "start": 140.139999,
+          "end": 140.550003,
+          "duration": 0.4100040000000149
+        },
+        {
+          "word": "what",
+          "start": 140.550003,
+          "end": 140.720001,
+          "duration": 0.16999799999999254
+        },
+        {
+          "word": "audio",
+          "start": 140.779999,
+          "end": 141.190002,
+          "duration": 0.410002999999989
+        },
+        {
+          "word": "could",
+          "start": 141.190002,
+          "end": 141.389999,
+          "duration": 0.1999969999999962
+        },
+        {
+          "word": "add",
+          "start": 141.389999,
+          "end": 141.740005,
+          "duration": 0.3500060000000076
+        },
+        {
+          "word": "your",
+          "start": 142.149994,
+          "end": 142.320007,
+          "duration": 0.17001300000001152
+        },
+        {
+          "word": "readers",
+          "start": 142.320007,
+          "end": 142.919998,
+          "duration": 0.5999909999999886
+        },
+        {
+          "word": "and",
+          "start": 143.110001,
+          "end": 143.259995,
+          "duration": 0.1499939999999924
+        },
+        {
+          "word": "listeners",
+          "start": 143.259995,
+          "end": 143.789993,
+          "duration": 0.5299980000000062
+        },
+        {
+          "word": "will",
+          "start": 143.789993,
+          "end": 143.910004,
+          "duration": 0.12001099999997678
+        },
+        {
+          "word": "thank",
+          "start": 143.910004,
+          "end": 144.270004,
+          "duration": 0.36000000000001364
+        },
+        {
+          "word": "you",
+          "start": 144.270004,
+          "end": 144.419998,
+          "duration": 0.1499939999999924
+        }
+      ],
+      "duration": 144.419998,
+      "mathSpeech": {},
       "createdAt": "2026-02-02T15:58:47.118Z",
-      "updatedAt": "2026-02-04T14:45:02.459Z",
-      "publishableKey": "pk_2b4c39a159e22cd768a79dc137639632"
+      "updatedAt": "2026-05-25T02:42:43.147Z"
+    },
+    "vocasync-by-the-numbers": {
+      "contentHash": "b432e21410c5d6a26561d842e54862a5a5ef228a1ecdc3068c395fa59d5f1f2a",
+      "voice": "coral",
+      "language": "en",
+      "format": "mp3",
+      "synthesisProjectUuid": "019e5d07-6cfd-7000-bd56-e9ea0f68e53c",
+      "synthesisPublishableKey": "pk_6c0c4c52a759e481aa15663cb56aae1f",
+      "audioUrl": "https://vocasync.io/api/v1/stream/019e5d07-6cfd-7000-bd56-e9ea0f68e53c/synthesis",
+      "alignmentProjectUuid": "019e5d07-b30c-7000-88ba-f6238b855f8e",
+      "alignmentPublishableKey": "pk_1f3a23df1f5f4255ce32357f9002c083",
+      "words": [
+        {
+          "word": "let's",
+          "start": 0.04,
+          "end": 0.24,
+          "duration": 0.19999999999999998
+        },
+        {
+          "word": "talk",
+          "start": 0.24,
+          "end": 0.47,
+          "duration": 0.22999999999999998
+        },
+        {
+          "word": "numbers",
+          "start": 0.47,
+          "end": 0.97,
+          "duration": 0.5
+        },
+        {
+          "word": "literally",
+          "start": 1.29,
+          "end": 1.9,
+          "duration": 0.6099999999999999
+        },
+        {
+          "word": "each",
+          "start": 2.17,
+          "end": 2.41,
+          "duration": 0.2400000000000002
+        },
+        {
+          "word": "figure",
+          "start": 2.41,
+          "end": 2.67,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "below",
+          "start": 2.67,
+          "end": 3.05,
+          "duration": 0.3799999999999999
+        },
+        {
+          "word": "is",
+          "start": 3.05,
+          "end": 3.15,
+          "duration": 0.10000000000000009
+        },
+        {
+          "word": "spoken",
+          "start": 3.15,
+          "end": 3.61,
+          "duration": 0.45999999999999996
+        },
+        {
+          "word": "in",
+          "start": 3.61,
+          "end": 3.71,
+          "duration": 0.10000000000000009
+        },
+        {
+          "word": "full",
+          "start": 3.71,
+          "end": 3.99,
+          "duration": 0.28000000000000025
+        },
+        {
+          "word": "and",
+          "start": 3.99,
+          "end": 4.08,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "the",
+          "start": 4.08,
+          "end": 4.12,
+          "duration": 0.040000000000000036
+        },
+        {
+          "word": "whole",
+          "start": 4.12,
+          "end": 4.32,
+          "duration": 0.20000000000000018
+        },
+        {
+          "word": "figure",
+          "start": 4.32,
+          "end": 4.64,
+          "duration": 0.3199999999999994
+        },
+        {
+          "word": "highlights",
+          "start": 4.64,
+          "end": 5.11,
+          "duration": 0.47000000000000064
+        },
+        {
+          "word": "as",
+          "start": 5.11,
+          "end": 5.26,
+          "duration": 0.14999999999999947
+        },
+        {
+          "word": "one",
+          "start": 5.26,
+          "end": 5.51,
+          "duration": 0.25
+        },
+        {
+          "word": "unit",
+          "start": 5.51,
+          "end": 5.85,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "while",
+          "start": 6.49,
+          "end": 6.66,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "you",
+          "start": 6.66,
+          "end": 6.77,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "hear",
+          "start": 6.77,
+          "end": 7.01,
+          "duration": 0.2400000000000002
+        },
+        {
+          "word": "it",
+          "start": 7.01,
+          "end": 7.12,
+          "duration": 0.11000000000000032
+        },
+        {
+          "word": "pricing",
+          "start": 7.71,
+          "end": 8.21,
+          "duration": 0.5000000000000009
+        },
+        {
+          "word": "a",
+          "start": 8.41,
+          "end": 8.47,
+          "duration": 0.0600000000000005
+        },
+        {
+          "word": "single",
+          "start": 8.47,
+          "end": 8.84,
+          "duration": 0.3699999999999992
+        },
+        {
+          "word": "narration",
+          "start": 8.84,
+          "end": 9.37,
+          "duration": 0.5299999999999994
+        },
+        {
+          "word": "can",
+          "start": 9.37,
+          "end": 9.53,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "cost",
+          "start": 9.53,
+          "end": 9.88,
+          "duration": 0.3500000000000014
+        },
+        {
+          "word": "as",
+          "start": 9.88,
+          "end": 10.03,
+          "duration": 0.14999999999999858
+        },
+        {
+          "word": "little",
+          "start": 10.03,
+          "end": 10.29,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "as",
+          "start": 10.29,
+          "end": 10.43,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "five",
+          "start": 10.43,
+          "end": 10.78,
+          "duration": 0.34999999999999964
+        },
+        {
+          "word": "dollar",
+          "start": 10.78,
+          "end": 11.17,
+          "duration": 0.39000000000000057
+        },
+        {
+          "word": "and",
+          "start": 11.3,
+          "end": 11.4,
+          "duration": 0.09999999999999964
+        },
+        {
+          "word": "a",
+          "start": 11.4,
+          "end": 11.44,
+          "duration": 0.03999999999999915
+        },
+        {
+          "word": "full",
+          "start": 11.44,
+          "end": 11.71,
+          "duration": 0.27000000000000135
+        },
+        {
+          "word": "year",
+          "start": 11.71,
+          "end": 11.94,
+          "duration": 0.22999999999999865
+        },
+        {
+          "word": "of",
+          "start": 11.94,
+          "end": 12.05,
+          "duration": 0.11000000000000121
+        },
+        {
+          "word": "unlimited",
+          "start": 12.05,
+          "end": 12.53,
+          "duration": 0.47999999999999865
+        },
+        {
+          "word": "posts",
+          "start": 12.53,
+          "end": 13.04,
+          "duration": 0.5099999999999998
+        },
+        {
+          "word": "is",
+          "start": 13.09,
+          "end": 13.27,
+          "duration": 0.17999999999999972
+        },
+        {
+          "word": "one",
+          "start": 13.27,
+          "end": 13.54,
+          "duration": 0.2699999999999996
+        },
+        {
+          "word": "thousand",
+          "start": 13.54,
+          "end": 13.95,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "two",
+          "start": 13.95,
+          "end": 14.1,
+          "duration": 0.15000000000000036
+        },
+        {
+          "word": "hundred",
+          "start": 14.1,
+          "end": 14.37,
+          "duration": 0.2699999999999996
+        },
+        {
+          "word": "dollar",
+          "start": 14.37,
+          "end": 14.72,
+          "duration": 0.3500000000000014
+        },
+        {
+          "word": "that",
+          "start": 15.11,
+          "end": 15.29,
+          "duration": 0.17999999999999972
+        },
+        {
+          "word": "works",
+          "start": 15.29,
+          "end": 15.56,
+          "duration": 0.27000000000000135
+        },
+        {
+          "word": "out",
+          "start": 15.56,
+          "end": 15.73,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "to",
+          "start": 15.73,
+          "end": 15.89,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "a",
+          "start": 15.89,
+          "end": 15.94,
+          "duration": 0.049999999999998934
+        },
+        {
+          "word": "forty",
+          "start": 15.94,
+          "end": 16.370001,
+          "duration": 0.43000099999999897
+        },
+        {
+          "word": "percent",
+          "start": 16.370001,
+          "end": 16.780001,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "saving",
+          "start": 16.780001,
+          "end": 17.18,
+          "duration": 0.3999990000000011
+        },
+        {
+          "word": "compared",
+          "start": 17.18,
+          "end": 17.57,
+          "duration": 0.39000000000000057
+        },
+        {
+          "word": "with",
+          "start": 17.57,
+          "end": 17.67,
+          "duration": 0.10000000000000142
+        },
+        {
+          "word": "hiring",
+          "start": 17.67,
+          "end": 18.1,
+          "duration": 0.4299999999999997
+        },
+        {
+          "word": "a",
+          "start": 18.1,
+          "end": 18.16,
+          "duration": 0.05999999999999872
+        },
+        {
+          "word": "voice",
+          "start": 18.16,
+          "end": 18.459999,
+          "duration": 0.2999989999999997
+        },
+        {
+          "word": "actor",
+          "start": 18.459999,
+          "end": 18.74,
+          "duration": 0.2800009999999986
+        },
+        {
+          "word": "for",
+          "start": 18.74,
+          "end": 18.91,
+          "duration": 0.1700000000000017
+        },
+        {
+          "word": "every",
+          "start": 18.91,
+          "end": 19.15,
+          "duration": 0.23999999999999844
+        },
+        {
+          "word": "article",
+          "start": 19.15,
+          "end": 19.6,
+          "duration": 0.45000000000000284
+        },
+        {
+          "word": "scale",
+          "start": 20.17,
+          "end": 20.75,
+          "duration": 0.5799999999999983
+        },
+        {
+          "word": "this",
+          "start": 21.27,
+          "end": 21.52,
+          "duration": 0.25
+        },
+        {
+          "word": "demo",
+          "start": 21.52,
+          "end": 21.790001,
+          "duration": 0.2700010000000006
+        },
+        {
+          "word": "was",
+          "start": 21.790001,
+          "end": 22.01,
+          "duration": 0.2199990000000014
+        },
+        {
+          "word": "published",
+          "start": 22.01,
+          "end": 22.49,
+          "duration": 0.4799999999999969
+        },
+        {
+          "word": "in",
+          "start": 22.540001,
+          "end": 22.76,
+          "duration": 0.2199990000000014
+        },
+        {
+          "word": "two",
+          "start": 22.83,
+          "end": 23.02,
+          "duration": 0.19000000000000128
+        },
+        {
+          "word": "thousand",
+          "start": 23.02,
+          "end": 23.42,
+          "duration": 0.40000000000000213
+        },
+        {
+          "word": "twenty",
+          "start": 23.42,
+          "end": 23.68,
+          "duration": 0.259999999999998
+        },
+        {
+          "word": "six",
+          "start": 23.68,
+          "end": 24.17,
+          "duration": 0.490000000000002
+        },
+        {
+          "word": "the",
+          "start": 25.41,
+          "end": 25.469999,
+          "duration": 0.059999000000001246
+        },
+        {
+          "word": "platform",
+          "start": 25.469999,
+          "end": 26,
+          "duration": 0.5300009999999986
+        },
+        {
+          "word": "supports",
+          "start": 26,
+          "end": 26.49,
+          "duration": 0.48999999999999844
+        },
+        {
+          "word": "fourteen",
+          "start": 26.49,
+          "end": 27.219999,
+          "duration": 0.729999000000003
+        },
+        {
+          "word": "languages",
+          "start": 27.219999,
+          "end": 27.889999,
+          "duration": 0.6699999999999982
+        },
+        {
+          "word": "for",
+          "start": 28.040001,
+          "end": 28.18,
+          "duration": 0.13999899999999954
+        },
+        {
+          "word": "word",
+          "start": 28.18,
+          "end": 28.51,
+          "duration": 0.33000000000000185
+        },
+        {
+          "word": "level",
+          "start": 28.51,
+          "end": 28.83,
+          "duration": 0.31999999999999673
+        },
+        {
+          "word": "alignment",
+          "start": 28.83,
+          "end": 29.299999,
+          "duration": 0.4699990000000014
+        },
+        {
+          "word": "and",
+          "start": 29.459999,
+          "end": 29.610001,
+          "duration": 0.15000200000000063
+        },
+        {
+          "word": "can",
+          "start": 29.610001,
+          "end": 29.809999,
+          "duration": 0.1999980000000008
+        },
+        {
+          "word": "narrate",
+          "start": 29.809999,
+          "end": 30.16,
+          "duration": 0.3500009999999989
+        },
+        {
+          "word": "a",
+          "start": 30.16,
+          "end": 30.200001,
+          "duration": 0.040001000000000175
+        },
+        {
+          "word": "post",
+          "start": 30.200001,
+          "end": 30.700001,
+          "duration": 0.5
+        },
+        {
+          "word": "of",
+          "start": 30.700001,
+          "end": 30.82,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "any",
+          "start": 30.9,
+          "end": 31.15,
+          "duration": 0.25
+        },
+        {
+          "word": "length",
+          "start": 31.15,
+          "end": 31.59,
+          "duration": 0.4400000000000013
+        },
+        {
+          "word": "notice",
+          "start": 32.75,
+          "end": 33.110001,
+          "duration": 0.3600009999999969
+        },
+        {
+          "word": "how",
+          "start": 33.110001,
+          "end": 33.240002,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "one",
+          "start": 33.240002,
+          "end": 33.52,
+          "duration": 0.2799980000000062
+        },
+        {
+          "word": "thousand",
+          "start": 33.52,
+          "end": 33.93,
+          "duration": 0.4099999999999966
+        },
+        {
+          "word": "two",
+          "start": 33.93,
+          "end": 34.130001,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "hundred",
+          "start": 34.130001,
+          "end": 34.41,
+          "duration": 0.27999899999999656
+        },
+        {
+          "word": "dollar",
+          "start": 34.41,
+          "end": 34.720001,
+          "duration": 0.31000100000000685
+        },
+        {
+          "word": "is",
+          "start": 34.720001,
+          "end": 34.869999,
+          "duration": 0.14999799999999652
+        },
+        {
+          "word": "read",
+          "start": 34.869999,
+          "end": 35.02,
+          "duration": 0.15000100000000316
+        },
+        {
+          "word": "as",
+          "start": 35.02,
+          "end": 35.119999,
+          "duration": 0.09999899999999684
+        },
+        {
+          "word": "a",
+          "start": 35.119999,
+          "end": 35.18,
+          "duration": 0.06000099999999975
+        },
+        {
+          "word": "single",
+          "start": 35.18,
+          "end": 35.59,
+          "duration": 0.4100000000000037
+        },
+        {
+          "word": "spoken",
+          "start": 35.59,
+          "end": 36.049999,
+          "duration": 0.45999899999999627
+        },
+        {
+          "word": "amount",
+          "start": 36.049999,
+          "end": 36.470001,
+          "duration": 0.42000200000000376
+        },
+        {
+          "word": "and",
+          "start": 37.060001,
+          "end": 37.200001,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "stays",
+          "start": 37.200001,
+          "end": 37.560001,
+          "duration": 0.35999999999999943
+        },
+        {
+          "word": "highlighted",
+          "start": 37.560001,
+          "end": 38.110001,
+          "duration": 0.5499999999999972
+        },
+        {
+          "word": "from",
+          "start": 38.110001,
+          "end": 38.259998,
+          "duration": 0.14999700000000615
+        },
+        {
+          "word": "the",
+          "start": 38.259998,
+          "end": 38.34,
+          "duration": 0.08000200000000035
+        },
+        {
+          "word": "first",
+          "start": 38.34,
+          "end": 38.700001,
+          "duration": 0.3600009999999969
+        },
+        {
+          "word": "word",
+          "start": 38.700001,
+          "end": 38.900002,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "to",
+          "start": 38.900002,
+          "end": 39,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "the",
+          "start": 39,
+          "end": 39.110001,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "last",
+          "start": 39.110001,
+          "end": 39.580002,
+          "duration": 0.47000100000000344
+        },
+        {
+          "word": "that",
+          "start": 40.009998,
+          "end": 40.220001,
+          "duration": 0.21000300000000038
+        },
+        {
+          "word": "is",
+          "start": 40.220001,
+          "end": 40.369999,
+          "duration": 0.14999799999999652
+        },
+        {
+          "word": "the",
+          "start": 40.369999,
+          "end": 40.450001,
+          "duration": 0.08000200000000035
+        },
+        {
+          "word": "multi",
+          "start": 40.450001,
+          "end": 40.82,
+          "duration": 0.36999899999999997
+        },
+        {
+          "word": "token",
+          "start": 40.82,
+          "end": 41.139999,
+          "duration": 0.3199990000000028
+        },
+        {
+          "word": "highlighting",
+          "start": 41.139999,
+          "end": 41.720001,
+          "duration": 0.5800020000000004
+        },
+        {
+          "word": "at",
+          "start": 41.720001,
+          "end": 41.82,
+          "duration": 0.09999899999999684
+        },
+        {
+          "word": "work",
+          "start": 41.82,
+          "end": 42.169998,
+          "duration": 0.34999799999999937
+        }
+      ],
+      "duration": 42.169998,
+      "mathSpeech": {},
+      "createdAt": "2026-05-25T02:34:37.943Z",
+      "updatedAt": "2026-05-25T02:48:16.181Z"
+    },
+    "bienvenue-sur-vocasync": {
+      "contentHash": "bc4fb28e194aa67acc579dc210ecaea25d21a9c7f4b41a8fcb15e224ba75954c",
+      "voice": "shimmer",
+      "language": "fr",
+      "format": "mp3",
+      "synthesisProjectUuid": "019e5cfd-2e88-7000-a621-5b1162791fcc",
+      "synthesisPublishableKey": "pk_b5e2d4ec7255a3ed71381895e025a135",
+      "audioUrl": "https://vocasync.io/api/v1/stream/019e5cfd-2e88-7000-a621-5b1162791fcc/synthesis",
+      "alignmentProjectUuid": "019e5cfd-7456-7000-8eeb-a36e6cf15a6d",
+      "alignmentPublishableKey": "pk_4b32d89d5be96d3ccc6641230e3b48bb",
+      "words": [
+        {
+          "word": "bonjour",
+          "start": 0.04,
+          "end": 0.56,
+          "duration": 0.52
+        },
+        {
+          "word": "et",
+          "start": 0.6,
+          "end": 0.66,
+          "duration": 0.06000000000000005
+        },
+        {
+          "word": "bienvenue",
+          "start": 0.66,
+          "end": 1.27,
+          "duration": 0.61
+        },
+        {
+          "word": "vocasync",
+          "start": 1.95,
+          "end": 2.56,
+          "duration": 0.6100000000000001
+        },
+        {
+          "word": "transforme",
+          "start": 2.56,
+          "end": 3.14,
+          "duration": 0.5800000000000001
+        },
+        {
+          "word": "vos",
+          "start": 3.14,
+          "end": 3.34,
+          "duration": 0.19999999999999973
+        },
+        {
+          "word": "articles",
+          "start": 3.34,
+          "end": 3.85,
+          "duration": 0.5100000000000002
+        },
+        {
+          "word": "en",
+          "start": 3.92,
+          "end": 4.09,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "audio",
+          "start": 4.09,
+          "end": 4.37,
+          "duration": 0.28000000000000025
+        },
+        {
+          "word": "narre",
+          "start": 4.37,
+          "end": 4.63,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "avec",
+          "start": 5.06,
+          "end": 5.32,
+          "duration": 0.2600000000000007
+        },
+        {
+          "word": "une",
+          "start": 5.32,
+          "end": 5.42,
+          "duration": 0.09999999999999964
+        },
+        {
+          "word": "synchronisation",
+          "start": 5.42,
+          "end": 6.38,
+          "duration": 0.96
+        },
+        {
+          "word": "au",
+          "start": 6.41,
+          "end": 6.52,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "niveau",
+          "start": 6.52,
+          "end": 6.81,
+          "duration": 0.29000000000000004
+        },
+        {
+          "word": "du",
+          "start": 6.81,
+          "end": 6.95,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "mot",
+          "start": 6.95,
+          "end": 7.17,
+          "duration": 0.21999999999999975
+        },
+        {
+          "word": "comment",
+          "start": 8.3,
+          "end": 8.56,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "ca",
+          "start": 8.56,
+          "end": 8.72,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "marche",
+          "start": 8.72,
+          "end": 9.22,
+          "duration": 0.5
+        },
+        {
+          "word": "le",
+          "start": 9.98,
+          "end": 10.09,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "texte",
+          "start": 10.09,
+          "end": 10.47,
+          "duration": 0.3800000000000008
+        },
+        {
+          "word": "est",
+          "start": 10.47,
+          "end": 10.52,
+          "duration": 0.049999999999998934
+        },
+        {
+          "word": "d'abord",
+          "start": 10.52,
+          "end": 10.83,
+          "duration": 0.3100000000000005
+        },
+        {
+          "word": "synthetise",
+          "start": 10.83,
+          "end": 11.46,
+          "duration": 0.6300000000000008
+        },
+        {
+          "word": "dans",
+          "start": 11.5,
+          "end": 11.59,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "une",
+          "start": 11.59,
+          "end": 11.79,
+          "duration": 0.1999999999999993
+        },
+        {
+          "word": "voix",
+          "start": 11.79,
+          "end": 11.94,
+          "duration": 0.15000000000000036
+        },
+        {
+          "word": "naturelle",
+          "start": 11.94,
+          "end": 12.59,
+          "duration": 0.6500000000000004
+        },
+        {
+          "word": "puis",
+          "start": 12.72,
+          "end": 12.92,
+          "duration": 0.1999999999999993
+        },
+        {
+          "word": "aligne",
+          "start": 12.92,
+          "end": 13.3,
+          "duration": 0.3800000000000008
+        },
+        {
+          "word": "precisement",
+          "start": 13.35,
+          "end": 14.02,
+          "duration": 0.6699999999999999
+        },
+        {
+          "word": "sur",
+          "start": 14.02,
+          "end": 14.23,
+          "duration": 0.21000000000000085
+        },
+        {
+          "word": "l'audio",
+          "start": 14.23,
+          "end": 14.64,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "pendant",
+          "start": 15.51,
+          "end": 15.77,
+          "duration": 0.2599999999999998
+        },
+        {
+          "word": "la",
+          "start": 15.77,
+          "end": 15.87,
+          "duration": 0.09999999999999964
+        },
+        {
+          "word": "lecture",
+          "start": 15.87,
+          "end": 16.49,
+          "duration": 0.6199999999999992
+        },
+        {
+          "word": "chaque",
+          "start": 16.629999,
+          "end": 17,
+          "duration": 0.37000099999999847
+        },
+        {
+          "word": "mot",
+          "start": 17,
+          "end": 17.190001,
+          "duration": 0.19000099999999875
+        },
+        {
+          "word": "est",
+          "start": 17.190001,
+          "end": 17.24,
+          "duration": 0.04999899999999968
+        },
+        {
+          "word": "surligne",
+          "start": 17.24,
+          "end": 17.790001,
+          "duration": 0.5500010000000017
+        },
+        {
+          "word": "au",
+          "start": 17.790001,
+          "end": 17.870001,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "bon",
+          "start": 17.870001,
+          "end": 18.07,
+          "duration": 0.19999900000000181
+        },
+        {
+          "word": "moment",
+          "start": 18.07,
+          "end": 18.450001,
+          "duration": 0.38000100000000003
+        },
+        {
+          "word": "plusieurs",
+          "start": 19.01,
+          "end": 19.389999,
+          "duration": 0.379998999999998
+        },
+        {
+          "word": "langues",
+          "start": 19.389999,
+          "end": 19.74,
+          "duration": 0.3500009999999989
+        },
+        {
+          "word": "vocasync",
+          "start": 20.4,
+          "end": 20.940001,
+          "duration": 0.5400010000000002
+        },
+        {
+          "word": "prend",
+          "start": 20.940001,
+          "end": 21.17,
+          "duration": 0.22999900000000295
+        },
+        {
+          "word": "en",
+          "start": 21.17,
+          "end": 21.23,
+          "duration": 0.05999999999999872
+        },
+        {
+          "word": "charge",
+          "start": 21.23,
+          "end": 21.58,
+          "duration": 0.34999999999999787
+        },
+        {
+          "word": "le",
+          "start": 21.58,
+          "end": 21.65,
+          "duration": 0.07000000000000028
+        },
+        {
+          "word": "francais",
+          "start": 21.65,
+          "end": 22.27,
+          "duration": 0.620000000000001
+        },
+        {
+          "word": "ainsi",
+          "start": 22.68,
+          "end": 22.91,
+          "duration": 0.23000000000000043
+        },
+        {
+          "word": "que",
+          "start": 22.91,
+          "end": 22.99,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "treize",
+          "start": 22.99,
+          "end": 23.379999,
+          "duration": 0.3899990000000031
+        },
+        {
+          "word": "autres",
+          "start": 23.379999,
+          "end": 23.620001,
+          "duration": 0.24000199999999694
+        },
+        {
+          "word": "langues",
+          "start": 23.620001,
+          "end": 23.940001,
+          "duration": 0.3200000000000003
+        },
+        {
+          "word": "pour",
+          "start": 24.01,
+          "end": 24.129999,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "la",
+          "start": 24.129999,
+          "end": 24.23,
+          "duration": 0.1000009999999989
+        },
+        {
+          "word": "synthese",
+          "start": 24.23,
+          "end": 24.84,
+          "duration": 0.6099999999999994
+        },
+        {
+          "word": "et",
+          "start": 24.91,
+          "end": 24.98,
+          "duration": 0.07000000000000028
+        },
+        {
+          "word": "l'alignement",
+          "start": 24.98,
+          "end": 25.540001,
+          "duration": 0.5600009999999997
+        },
+        {
+          "word": "choisissez",
+          "start": 25.65,
+          "end": 26.290001,
+          "duration": 0.6400010000000016
+        },
+        {
+          "word": "la",
+          "start": 26.290001,
+          "end": 26.370001,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "langue",
+          "start": 26.370001,
+          "end": 26.780001,
+          "duration": 0.41000000000000014
+        },
+        {
+          "word": "et",
+          "start": 26.780001,
+          "end": 26.84,
+          "duration": 0.059999000000001246
+        },
+        {
+          "word": "la",
+          "start": 26.84,
+          "end": 27.07,
+          "duration": 0.23000000000000043
+        },
+        {
+          "word": "voix",
+          "start": 27.209999,
+          "end": 27.299999,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "directement",
+          "start": 27.299999,
+          "end": 27.92,
+          "duration": 0.620001000000002
+        },
+        {
+          "word": "dans",
+          "start": 27.950001,
+          "end": 28.07,
+          "duration": 0.11999899999999997
+        },
+        {
+          "word": "le",
+          "start": 28.07,
+          "end": 28.16,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "frontmatter",
+          "start": 28.16,
+          "end": 28.860001,
+          "duration": 0.7000010000000003
+        },
+        {
+          "word": "de",
+          "start": 28.950001,
+          "end": 29.01,
+          "duration": 0.059999000000001246
+        },
+        {
+          "word": "chaque",
+          "start": 29.01,
+          "end": 29.27,
+          "duration": 0.259999999999998
+        },
+        {
+          "word": "article",
+          "start": 29.27,
+          "end": 29.700001,
+          "duration": 0.43000100000000074
+        },
+        {
+          "word": "ecoutez",
+          "start": 30.290001,
+          "end": 30.870001,
+          "duration": 0.5799999999999983
+        },
+        {
+          "word": "la",
+          "start": 31.16,
+          "end": 31.27,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "narration",
+          "start": 31.27,
+          "end": 31.629999,
+          "duration": 0.35999900000000196
+        },
+        {
+          "word": "suit",
+          "start": 31.629999,
+          "end": 31.76,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "le",
+          "start": 31.76,
+          "end": 31.860001,
+          "duration": 0.1000009999999989
+        },
+        {
+          "word": "texte",
+          "start": 31.860001,
+          "end": 32.32,
+          "duration": 0.4599989999999998
+        },
+        {
+          "word": "mot",
+          "start": 32.459999,
+          "end": 32.689999,
+          "duration": 0.22999999999999687
+        },
+        {
+          "word": "apres",
+          "start": 32.689999,
+          "end": 32.919998,
+          "duration": 0.2299989999999994
+        },
+        {
+          "word": "mot",
+          "start": 32.919998,
+          "end": 33.169998,
+          "duration": 0.25
+        }
+      ],
+      "duration": 33.169998,
+      "mathSpeech": {},
+      "createdAt": "2026-05-25T02:38:08.135Z",
+      "updatedAt": "2026-05-25T02:38:08.135Z"
+    },
+    "the-mathematics-of-sound": {
+      "contentHash": "df71f9397949c9adb1a7f0b33f3393d70d4ce94c3489418e97d1db3eded8ebd7",
+      "voice": "nova",
+      "language": "en",
+      "format": "mp3",
+      "synthesisProjectUuid": "019e5d03-630e-7000-a6ab-0721a050a286",
+      "synthesisPublishableKey": "pk_bab9612a80944f5bb869375074397b0d",
+      "audioUrl": "https://vocasync.io/api/v1/stream/019e5d03-630e-7000-a6ab-0721a050a286/synthesis",
+      "alignmentProjectUuid": "019e5d03-bdc0-7000-a480-ff426cee3abc",
+      "alignmentPublishableKey": "pk_1243898e9e3890d57e62bf2294c123ff",
+      "words": [
+        {
+          "word": "sound",
+          "start": 0.56,
+          "end": 0.88,
+          "duration": 0.31999999999999995
+        },
+        {
+          "word": "waves",
+          "start": 0.88,
+          "end": 1.09,
+          "duration": 0.21000000000000008
+        },
+        {
+          "word": "can",
+          "start": 1.09,
+          "end": 1.23,
+          "duration": 0.1399999999999999
+        },
+        {
+          "word": "be",
+          "start": 1.23,
+          "end": 1.34,
+          "duration": 0.1100000000000001
+        },
+        {
+          "word": "described",
+          "start": 1.34,
+          "end": 1.84,
+          "duration": 0.5
+        },
+        {
+          "word": "with",
+          "start": 1.84,
+          "end": 1.95,
+          "duration": 0.10999999999999988
+        },
+        {
+          "word": "surprisingly",
+          "start": 1.95,
+          "end": 2.52,
+          "duration": 0.5700000000000001
+        },
+        {
+          "word": "simple",
+          "start": 2.52,
+          "end": 2.8,
+          "duration": 0.2799999999999998
+        },
+        {
+          "word": "mathematics",
+          "start": 2.8,
+          "end": 3.46,
+          "duration": 0.6600000000000001
+        },
+        {
+          "word": "and",
+          "start": 3.46,
+          "end": 3.65,
+          "duration": 0.18999999999999995
+        },
+        {
+          "word": "vocasync",
+          "start": 3.65,
+          "end": 4.12,
+          "duration": 0.4700000000000002
+        },
+        {
+          "word": "reads",
+          "start": 4.15,
+          "end": 4.49,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "the",
+          "start": 4.49,
+          "end": 4.64,
+          "duration": 0.14999999999999947
+        },
+        {
+          "word": "equations",
+          "start": 4.64,
+          "end": 5.13,
+          "duration": 0.4900000000000002
+        },
+        {
+          "word": "aloud",
+          "start": 5.13,
+          "end": 5.58,
+          "duration": 0.4500000000000002
+        },
+        {
+          "word": "a",
+          "start": 5.97,
+          "end": 6.02,
+          "duration": 0.04999999999999982
+        },
+        {
+          "word": "single",
+          "start": 6.02,
+          "end": 6.37,
+          "duration": 0.35000000000000053
+        },
+        {
+          "word": "tone",
+          "start": 6.37,
+          "end": 6.82,
+          "duration": 0.4500000000000002
+        },
+        {
+          "word": "a",
+          "start": 7.28,
+          "end": 7.38,
+          "duration": 0.09999999999999964
+        },
+        {
+          "word": "pure",
+          "start": 7.38,
+          "end": 7.63,
+          "duration": 0.25
+        },
+        {
+          "word": "tone",
+          "start": 7.63,
+          "end": 7.92,
+          "duration": 0.29000000000000004
+        },
+        {
+          "word": "is",
+          "start": 7.92,
+          "end": 8.03,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "a",
+          "start": 8.03,
+          "end": 8.08,
+          "duration": 0.05000000000000071
+        },
+        {
+          "word": "sine",
+          "start": 8.08,
+          "end": 8.42,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "wave",
+          "start": 8.42,
+          "end": 8.79,
+          "duration": 0.3699999999999992
+        },
+        {
+          "word": "we",
+          "start": 9.01,
+          "end": 9.14,
+          "duration": 0.13000000000000078
+        },
+        {
+          "word": "can",
+          "start": 9.14,
+          "end": 9.31,
+          "duration": 0.16999999999999993
+        },
+        {
+          "word": "write",
+          "start": 9.31,
+          "end": 9.53,
+          "duration": 0.21999999999999886
+        },
+        {
+          "word": "it",
+          "start": 9.53,
+          "end": 9.63,
+          "duration": 0.10000000000000142
+        },
+        {
+          "word": "as",
+          "start": 9.66,
+          "end": 10.05,
+          "duration": 0.39000000000000057
+        },
+        {
+          "word": "y",
+          "start": 10.13,
+          "end": 10.47,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "equals",
+          "start": 10.47,
+          "end": 10.91,
+          "duration": 0.4399999999999995
+        },
+        {
+          "word": "a",
+          "start": 10.96,
+          "end": 11.26,
+          "duration": 0.29999999999999893
+        },
+        {
+          "word": "the",
+          "start": 11.26,
+          "end": 11.39,
+          "duration": 0.13000000000000078
+        },
+        {
+          "word": "sine",
+          "start": 11.39,
+          "end": 11.7,
+          "duration": 0.3099999999999987
+        },
+        {
+          "word": "of",
+          "start": 11.7,
+          "end": 11.79,
+          "duration": 0.08999999999999986
+        },
+        {
+          "word": "open",
+          "start": 11.79,
+          "end": 12.03,
+          "duration": 0.2400000000000002
+        },
+        {
+          "word": "paren",
+          "start": 12.03,
+          "end": 12.27,
+          "duration": 0.2400000000000002
+        },
+        {
+          "word": "two",
+          "start": 12.27,
+          "end": 12.41,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "pi",
+          "start": 12.41,
+          "end": 12.73,
+          "duration": 0.3200000000000003
+        },
+        {
+          "word": "f",
+          "start": 12.82,
+          "end": 13.12,
+          "duration": 0.29999999999999893
+        },
+        {
+          "word": "of",
+          "start": 13.22,
+          "end": 13.38,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "t",
+          "start": 13.38,
+          "end": 13.56,
+          "duration": 0.17999999999999972
+        },
+        {
+          "word": "close",
+          "start": 13.56,
+          "end": 13.9,
+          "duration": 0.33999999999999986
+        },
+        {
+          "word": "paren",
+          "start": 13.9,
+          "end": 14.4,
+          "duration": 0.5
+        },
+        {
+          "word": "where",
+          "start": 14.49,
+          "end": 14.7,
+          "duration": 0.20999999999999908
+        },
+        {
+          "word": "a",
+          "start": 14.74,
+          "end": 14.96,
+          "duration": 0.22000000000000064
+        },
+        {
+          "word": "is",
+          "start": 14.96,
+          "end": 15.08,
+          "duration": 0.11999999999999922
+        },
+        {
+          "word": "the",
+          "start": 15.08,
+          "end": 15.22,
+          "duration": 0.14000000000000057
+        },
+        {
+          "word": "amplitude",
+          "start": 15.22,
+          "end": 15.82,
+          "duration": 0.5999999999999996
+        },
+        {
+          "word": "and",
+          "start": 16.139999,
+          "end": 16.26,
+          "duration": 0.12000100000000202
+        },
+        {
+          "word": "f",
+          "start": 16.290001,
+          "end": 16.48,
+          "duration": 0.18999900000000025
+        },
+        {
+          "word": "is",
+          "start": 16.48,
+          "end": 16.610001,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "the",
+          "start": 16.610001,
+          "end": 16.690001,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "frequency",
+          "start": 16.690001,
+          "end": 17.360001,
+          "duration": 0.6700000000000017
+        },
+        {
+          "word": "energy",
+          "start": 17.889999,
+          "end": 18.42,
+          "duration": 0.5300010000000022
+        },
+        {
+          "word": "the",
+          "start": 18.879999,
+          "end": 19.02,
+          "duration": 0.14000099999999804
+        },
+        {
+          "word": "energy",
+          "start": 19.02,
+          "end": 19.290001,
+          "duration": 0.2700010000000006
+        },
+        {
+          "word": "carried",
+          "start": 19.290001,
+          "end": 19.59,
+          "duration": 0.2999989999999997
+        },
+        {
+          "word": "by",
+          "start": 19.59,
+          "end": 19.690001,
+          "duration": 0.1000009999999989
+        },
+        {
+          "word": "a",
+          "start": 19.690001,
+          "end": 19.809999,
+          "duration": 0.11999800000000249
+        },
+        {
+          "word": "wave",
+          "start": 19.809999,
+          "end": 20.18,
+          "duration": 0.37000099999999847
+        },
+        {
+          "word": "grows",
+          "start": 20.18,
+          "end": 20.540001,
+          "duration": 0.36000100000000046
+        },
+        {
+          "word": "with",
+          "start": 20.540001,
+          "end": 20.639999,
+          "duration": 0.09999799999999937
+        },
+        {
+          "word": "the",
+          "start": 20.639999,
+          "end": 20.709999,
+          "duration": 0.07000000000000028
+        },
+        {
+          "word": "square",
+          "start": 20.709999,
+          "end": 21.059999,
+          "duration": 0.3500000000000014
+        },
+        {
+          "word": "of",
+          "start": 21.059999,
+          "end": 21.15,
+          "duration": 0.09000099999999733
+        },
+        {
+          "word": "its",
+          "start": 21.15,
+          "end": 21.27,
+          "duration": 0.120000000000001
+        },
+        {
+          "word": "amplitude",
+          "start": 21.299999,
+          "end": 21.879999,
+          "duration": 0.5800000000000018
+        },
+        {
+          "word": "in",
+          "start": 22.23,
+          "end": 22.35,
+          "duration": 0.120000000000001
+        },
+        {
+          "word": "other",
+          "start": 22.35,
+          "end": 22.52,
+          "duration": 0.16999999999999815
+        },
+        {
+          "word": "words",
+          "start": 22.52,
+          "end": 22.780001,
+          "duration": 0.26000099999999904
+        },
+        {
+          "word": "e",
+          "start": 22.809999,
+          "end": 22.940001,
+          "duration": 0.1300019999999975
+        },
+        {
+          "word": "proportional",
+          "start": 22.940001,
+          "end": 23.51,
+          "duration": 0.5699990000000028
+        },
+        {
+          "word": "to",
+          "start": 23.51,
+          "end": 23.700001,
+          "duration": 0.19000099999999875
+        },
+        {
+          "word": "a",
+          "start": 23.700001,
+          "end": 23.780001,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "squared",
+          "start": 23.780001,
+          "end": 24.27,
+          "duration": 0.48999900000000096
+        },
+        {
+          "word": "adding",
+          "start": 25.09,
+          "end": 25.42,
+          "duration": 0.33000000000000185
+        },
+        {
+          "word": "waves",
+          "start": 25.42,
+          "end": 25.950001,
+          "duration": 0.5300009999999986
+        },
+        {
+          "word": "when",
+          "start": 26.27,
+          "end": 26.450001,
+          "duration": 0.18000100000000074
+        },
+        {
+          "word": "two",
+          "start": 26.450001,
+          "end": 26.620001,
+          "duration": 0.16999999999999815
+        },
+        {
+          "word": "tones",
+          "start": 26.620001,
+          "end": 26.940001,
+          "duration": 0.3200000000000003
+        },
+        {
+          "word": "combine",
+          "start": 26.940001,
+          "end": 27.540001,
+          "duration": 0.6000000000000014
+        },
+        {
+          "word": "their",
+          "start": 27.610001,
+          "end": 27.809999,
+          "duration": 0.1999980000000008
+        },
+        {
+          "word": "amplitudes",
+          "start": 27.809999,
+          "end": 28.299999,
+          "duration": 0.48999999999999844
+        },
+        {
+          "word": "add",
+          "start": 28.33,
+          "end": 28.51,
+          "duration": 0.18000000000000327
+        },
+        {
+          "word": "together",
+          "start": 28.51,
+          "end": 28.99,
+          "duration": 0.4799999999999969
+        },
+        {
+          "word": "y",
+          "start": 29.309999,
+          "end": 29.51,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "of",
+          "start": 29.51,
+          "end": 29.75,
+          "duration": 0.23999999999999844
+        },
+        {
+          "word": "t",
+          "start": 29.75,
+          "end": 30.120001,
+          "duration": 0.37000099999999847
+        },
+        {
+          "word": "equals",
+          "start": 30.16,
+          "end": 30.52,
+          "duration": 0.35999999999999943
+        },
+        {
+          "word": "a",
+          "start": 30.57,
+          "end": 30.73,
+          "duration": 0.16000000000000014
+        },
+        {
+          "word": "sub",
+          "start": 30.73,
+          "end": 31,
+          "duration": 0.2699999999999996
+        },
+        {
+          "word": "one",
+          "start": 31,
+          "end": 31.25,
+          "duration": 0.25
+        },
+        {
+          "word": "the",
+          "start": 31.25,
+          "end": 31.33,
+          "duration": 0.0799999999999983
+        },
+        {
+          "word": "sine",
+          "start": 31.33,
+          "end": 31.75,
+          "duration": 0.4200000000000017
+        },
+        {
+          "word": "of",
+          "start": 31.75,
+          "end": 31.870001,
+          "duration": 0.12000099999999847
+        },
+        {
+          "word": "open",
+          "start": 31.9,
+          "end": 32.189999,
+          "duration": 0.28999900000000167
+        },
+        {
+          "word": "paren",
+          "start": 32.189999,
+          "end": 32.5,
+          "duration": 0.31000099999999975
+        },
+        {
+          "word": "two",
+          "start": 32.5,
+          "end": 32.700001,
+          "duration": 0.20000100000000032
+        },
+        {
+          "word": "pi",
+          "start": 32.700001,
+          "end": 32.98,
+          "duration": 0.27999899999999656
+        },
+        {
+          "word": "f",
+          "start": 32.98,
+          "end": 33.380001,
+          "duration": 0.40000100000000316
+        },
+        {
+          "word": "sub",
+          "start": 33.869999,
+          "end": 34.09,
+          "duration": 0.22000100000000344
+        },
+        {
+          "word": "one",
+          "start": 34.09,
+          "end": 34.25,
+          "duration": 0.1599999999999966
+        },
+        {
+          "word": "of",
+          "start": 34.25,
+          "end": 34.380001,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "t",
+          "start": 34.380001,
+          "end": 34.560001,
+          "duration": 0.17999999999999972
+        },
+        {
+          "word": "close",
+          "start": 34.560001,
+          "end": 34.91,
+          "duration": 0.34999899999999684
+        },
+        {
+          "word": "paren",
+          "start": 34.91,
+          "end": 35.330002,
+          "duration": 0.42000200000000376
+        },
+        {
+          "word": "plus",
+          "start": 35.369999,
+          "end": 35.599998,
+          "duration": 0.2299989999999994
+        },
+        {
+          "word": "a",
+          "start": 35.630001,
+          "end": 35.740002,
+          "duration": 0.1100009999999969
+        },
+        {
+          "word": "sub",
+          "start": 35.740002,
+          "end": 35.950001,
+          "duration": 0.20999900000000338
+        },
+        {
+          "word": "two",
+          "start": 36.02,
+          "end": 36.279999,
+          "duration": 0.25999899999999343
+        },
+        {
+          "word": "the",
+          "start": 36.279999,
+          "end": 36.380001,
+          "duration": 0.10000200000000348
+        },
+        {
+          "word": "sine",
+          "start": 36.380001,
+          "end": 36.77,
+          "duration": 0.3899990000000031
+        },
+        {
+          "word": "of",
+          "start": 36.77,
+          "end": 36.869999,
+          "duration": 0.09999899999999684
+        },
+        {
+          "word": "open",
+          "start": 36.900002,
+          "end": 37.16,
+          "duration": 0.25999799999999595
+        },
+        {
+          "word": "paren",
+          "start": 37.16,
+          "end": 37.48,
+          "duration": 0.3200000000000003
+        },
+        {
+          "word": "two",
+          "start": 37.48,
+          "end": 37.68,
+          "duration": 0.20000000000000284
+        },
+        {
+          "word": "pi",
+          "start": 37.68,
+          "end": 38.009998,
+          "duration": 0.32999800000000334
+        },
+        {
+          "word": "f",
+          "start": 38.009998,
+          "end": 38.220001,
+          "duration": 0.21000300000000038
+        },
+        {
+          "word": "sub",
+          "start": 38.220001,
+          "end": 38.43,
+          "duration": 0.20999899999999627
+        },
+        {
+          "word": "two",
+          "start": 38.48,
+          "end": 38.709999,
+          "duration": 0.2299990000000065
+        },
+        {
+          "word": "of",
+          "start": 38.709999,
+          "end": 38.830002,
+          "duration": 0.12000299999999697
+        },
+        {
+          "word": "t",
+          "start": 38.830002,
+          "end": 38.98,
+          "duration": 0.14999799999999652
+        },
+        {
+          "word": "close",
+          "start": 38.98,
+          "end": 39.279999,
+          "duration": 0.2999989999999997
+        },
+        {
+          "word": "paren",
+          "start": 39.279999,
+          "end": 39.650002,
+          "duration": 0.3700030000000041
+        },
+        {
+          "word": "listen",
+          "start": 40.349998,
+          "end": 40.66,
+          "duration": 0.3100019999999972
+        },
+        {
+          "word": "as",
+          "start": 40.66,
+          "end": 40.799999,
+          "duration": 0.1399990000000031
+        },
+        {
+          "word": "each",
+          "start": 40.799999,
+          "end": 40.98,
+          "duration": 0.1800009999999972
+        },
+        {
+          "word": "equation",
+          "start": 40.98,
+          "end": 41.419998,
+          "duration": 0.4399980000000028
+        },
+        {
+          "word": "is",
+          "start": 41.419998,
+          "end": 41.52,
+          "duration": 0.10000200000000348
+        },
+        {
+          "word": "spoken",
+          "start": 41.52,
+          "end": 41.919998,
+          "duration": 0.3999979999999965
+        },
+        {
+          "word": "and",
+          "start": 41.919998,
+          "end": 42.049999,
+          "duration": 0.13000100000000003
+        },
+        {
+          "word": "highlighted",
+          "start": 42.049999,
+          "end": 42.540001,
+          "duration": 0.49000199999999694
+        },
+        {
+          "word": "in",
+          "start": 42.540001,
+          "end": 42.669998,
+          "duration": 0.12999700000000303
+        },
+        {
+          "word": "time",
+          "start": 42.669998,
+          "end": 42.950001,
+          "duration": 0.28000300000000067
+        },
+        {
+          "word": "with",
+          "start": 42.950001,
+          "end": 43.060001,
+          "duration": 0.10999999999999943
+        },
+        {
+          "word": "the",
+          "start": 43.060001,
+          "end": 43.139999,
+          "duration": 0.07999800000000334
+        },
+        {
+          "word": "narration",
+          "start": 43.139999,
+          "end": 43.75,
+          "duration": 0.6100009999999969
+        },
+        {
+          "word": "the",
+          "start": 44.119999,
+          "end": 44.200001,
+          "duration": 0.08000200000000035
+        },
+        {
+          "word": "whole",
+          "start": 44.200001,
+          "end": 44.41,
+          "duration": 0.20999899999999627
+        },
+        {
+          "word": "expression",
+          "start": 44.41,
+          "end": 44.869999,
+          "duration": 0.4599990000000034
+        },
+        {
+          "word": "lights",
+          "start": 44.869999,
+          "end": 45.150002,
+          "duration": 0.28000300000000067
+        },
+        {
+          "word": "up",
+          "start": 45.150002,
+          "end": 45.279999,
+          "duration": 0.12999699999999592
+        },
+        {
+          "word": "as",
+          "start": 45.310001,
+          "end": 45.470001,
+          "duration": 0.1600000000000037
+        },
+        {
+          "word": "it",
+          "start": 45.470001,
+          "end": 45.560001,
+          "duration": 0.0899999999999963
+        },
+        {
+          "word": "is",
+          "start": 45.560001,
+          "end": 45.720001,
+          "duration": 0.1600000000000037
+        },
+        {
+          "word": "read",
+          "start": 45.720001,
+          "end": 45.93,
+          "duration": 0.20999899999999627
+        }
+      ],
+      "duration": 45.93,
+      "mathSpeech": {
+        "i:y = A \\sin(2 \\pi f t)": "y equals A the sine of open paren 2 pi f of t close paren",
+        "i:A": "A",
+        "i:f": "f",
+        "i:E \\propto A^2": "E proportional to A squared",
+        "i:y(t) = A_1 \\sin(2 \\pi f_1 t) + A_2 \\sin(2 \\pi f_2 t)": "y of t equals A sub 1 the sine of open paren 2 pi f sub 1 of t close paren plus A sub 2 the sine of open paren 2 pi f sub 2 of t close paren"
+      },
+      "createdAt": "2026-05-25T02:45:42.465Z",
+      "updatedAt": "2026-05-25T02:45:42.465Z"
     }
   }
 }
