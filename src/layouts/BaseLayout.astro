@@ -1,5 +1,6 @@
 ---
 import "@vocasync/astro/styles/variables.css";
+import Analytics from "@vercel/analytics/astro";
 import { demoVersion, pluginVersion } from "../version";
 
 interface Props {
@@ -45,6 +46,7 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
         Demo v{demoVersion} · <a href="https://www.npmjs.com/package/@vocasync/astro" target="_blank" rel="noopener">@vocasync/astro</a> v{pluginVersion}
       </p>
     </footer>
+    <Analytics />
   </body>
 </html>
 
