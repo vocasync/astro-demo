@@ -6,9 +6,16 @@ A demo blog showcasing the [@vocasync/astro](https://www.npmjs.com/package/@voca
 
 - 🎙️ **Audio Player** - Built-in accessible audio player with mini-player mode
 - ✨ **Word Highlighting** - Karaoke-style highlighting that follows along with playback
+- 🔢 **Numbers, currency & percent** - Spoken in full ("$1200" → one amount) and highlighted as single units
+- 🌍 **Multiple voices & languages** - A French post and several distinct voices via per-post frontmatter
+- ∑ **Math narration** - LaTeX equations spoken aloud and highlighted as one unit
 - ⌨️ **Keyboard Shortcuts** - Space, arrows, M (mute), H (highlight toggle)
 - 🌗 **Dark Mode** - Automatic theme detection
 - 📱 **Responsive** - Works on all device sizes
+
+The posts in `src/content/blog/` each demonstrate something different: a French post
+(`language: fr`, `voice: shimmer`), a math post (`voice: nova`), and a numbers/currency
+post (`voice: coral`) — each set via per-post frontmatter overrides.
 
 ## Getting Started
 
@@ -87,10 +94,11 @@ The audio player uses CSS variables for theming. Import the variables and overri
 
 ### VocaSync Configuration
 
-Edit `vocasync.config.mjs` to change:
-- Voice (alloy, echo, fable, onyx, nova, shimmer)
+Edit `vocasync.config.mjs` (global defaults) or a post's frontmatter (per-post overrides):
+- Voice (alloy, ash, coral, echo, fable, onyx, nova, sage, shimmer)
 - Quality (sd, hd)
-- Language (57 languages supported)
+- Output format (mp3, aac, opus, flac, wav)
+- Language (14 alignment-supported languages)
 
 ## Learn More
 
