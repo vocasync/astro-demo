@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.14",
     "@vercel/analytics": "^2.0.1",
-    "@vocasync/astro": "^1.0.0",
+    "@vocasync/astro": "^1.0.1",
     "astro": "^5.18.1",
     "mathjax-full": "^3.2.2",
     "rehype-mathjax": "^7.1.0",

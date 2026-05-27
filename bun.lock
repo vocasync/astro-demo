@@ -7,7 +7,7 @@
       "dependencies": {
         "@astrojs/mdx": "^4.3.14",
         "@vercel/analytics": "^2.0.1",
-        "@vocasync/astro": "^1.0.0",
+        "@vocasync/astro": "^1.0.1",
         "astro": "^5.18.1",
         "mathjax-full": "^3.2.2",
         "rehype-mathjax": "^7.1.0",
@@ -243,7 +243,7 @@
 
     "@vercel/analytics": ["@vercel/analytics@2.0.1", "", { "peerDependencies": { "@remix-run/react": "^2", "@sveltejs/kit": "^1 || ^2", "next": ">= 13", "nuxt": ">= 3", "react": "^18 || ^19 || ^19.0.0-rc", "svelte": ">= 4", "vue": "^3", "vue-router": "^4" }, "optionalPeers": ["@remix-run/react", "@sveltejs/kit", "next", "nuxt", "react", "svelte", "vue", "vue-router"] }, "sha512-MTQG6V9qQrt1tsDeF+2Uoo5aPjqbVPys1xvnIftXSJYG2SrwXRHnqEvVoYID7BTruDz4lCd2Z7rM1BdkUehk2g=="],
 
-    "@vocasync/astro": ["@vocasync/astro@1.0.0", "", { "dependencies": { "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.0.2", "zod": "^3.25.76" }, "peerDependencies": { "astro": "^4.0.0 || ^5.0.0", "mathjax-full": "^3.2.0", "speech-rule-engine": "^4.0.0" }, "optionalPeers": ["mathjax-full", "speech-rule-engine"], "bin": { "vocasync": "dist/cli.js" } }, "sha512-ndLUY216B26pWXAckZYwuhPR2srCsefcVrZF6j/3YcnGYKpXoBOGuRVfx+SqxEpVD4yRC1Su51XJew6ZPMXI8g=="],
+    "@vocasync/astro": ["@vocasync/astro@1.0.1", "", { "dependencies": { "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.0.2", "zod": "^3.25.76" }, "peerDependencies": { "astro": "^4.0.0 || ^5.0.0", "mathjax-full": "^3.2.0", "speech-rule-engine": "^4.0.0" }, "optionalPeers": ["mathjax-full", "speech-rule-engine"], "bin": { "vocasync": "dist/cli.js" } }, "sha512-UzTJKka3Lb563Quu1oYZWnlm/Qlp4OCl6RvIOeMGvzOT//YIVb2wZu7Wd6Cw0mtuD3r3mYbw64BEi1vjJ1nTww=="],
 
     "@xmldom/xmldom": ["@xmldom/xmldom@0.9.10", "", {}, "sha512-A9gOqLdi6cV4ibazAjcQufGj0B1y/vDqYrcuP6d/6x8P27gRS8643Dj9o1dEKtB6O7fwxb2FgBmJS2mX7gpvdw=="],
 
