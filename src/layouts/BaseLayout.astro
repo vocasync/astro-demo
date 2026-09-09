@@ -1,5 +1,5 @@
 ---
-import "@vocasync/astro/styles/variables.css";
+import { ClientRouter } from "astro:transitions";
 import Analytics from "@vercel/analytics/astro";
 import { demoVersion, pluginVersion } from "../version";
 
@@ -19,6 +19,7 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} | VocaSync Demo</title>
+    <ClientRouter />
   </head>
   <body>
     <header>
@@ -29,6 +30,7 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
         </a>
         <div class="nav-links">
           <a href="/">Home</a>
+          <a href="/themes/">Themes</a>
           <a href="https://vocasync.io" target="_blank" rel="noopener">Get VocaSync</a>
           <a href="https://github.com/vocasync/astro" target="_blank" rel="noopener">GitHub</a>
         </div>
@@ -52,6 +54,16 @@ const { title, description = "A demo blog showcasing VocaSync audio narration wi
 
 <style>
   :root {
+    /* The player takes its whole theme from four seeds. Pointing them at tokens this
+       site already defines means it inherits the palette AND the dark mode below,
+       with nothing restated. Everything else -- borders, muted text, hover states --
+       derives from these. */
+    --vocasync-accent: var(--color-primary);
+    --vocasync-surface: var(--color-bg);
+    --vocasync-text: var(--color-text);
+    --vocasync-highlight: #f59e0b;
+    --vocasync-radius: 10px;
+
     --color-bg: #fafafa;
     --color-text: #1a1a2e;
     --color-text-muted: #64748b;

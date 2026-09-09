@@ -1,0 +1,274 @@
+---
+import AudioPlayer from "@vocasync/astro/components/AudioPlayer.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import audioMap from "../data/audio-map.json";
+
+const slug = "getting-started";
+const audioEntry = audioMap.entries[slug as keyof typeof audioMap.entries];
+---
+
+<BaseLayout
+  title="Themes"
+  description="The same player under different palettes, shapes and layouts — every variation below is CSS custom properties and props, with no forked markup."
+>
+  <section class="intro">
+    <h1>Theming the player</h1>
+    <p>
+      Every player on this page is the same component. Nothing below overrides a
+      VocaSync class or uses <code>!important</code> — it is all custom properties and
+      props. Try it in dark mode; each theme carries its own.
+    </p>
+  </section>
+
+  <section class="demo">
+    <h2>Four seeds carry a theme</h2>
+    <p class="note">
+      Set <code>--vocasync-accent</code>, <code>--vocasync-surface</code>,
+      <code>--vocasync-text</code> and <code>--vocasync-highlight</code>. Borders,
+      muted text, hover states and the contrast colour on the play button all derive
+      from them.
+    </p>
+
+    <div class="theme theme--default">
+      <span class="theme-label">Defaults</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} dock={{ enabled: false }} />
+    </div>
+
+    <div class="theme theme--forest">
+      <span class="theme-label">Four seeds changed</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} dock={{ enabled: false }} />
+    </div>
+
+    <div class="theme theme--editorial">
+      <span class="theme-label">Seeds + shape + type</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} dock={{ enabled: false }} />
+    </div>
+
+    <div class="theme theme--brutalist">
+      <span class="theme-label">Square, heavy borders, no elevation</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} dock={{ enabled: false }} />
+    </div>
+  </section>
+
+  <section class="demo">
+    <h2>Shapes</h2>
+    <p class="note">
+      <code>variant</code> changes the form factor. <code>minimal</code> borrows the
+      page instead of sitting on a card.
+    </p>
+
+    <div class="theme">
+      <span class="theme-label">variant="bar" (default)</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} dock={{ enabled: false }} />
+    </div>
+
+    <div class="theme">
+      <span class="theme-label">variant="minimal"</span>
+      <AudioPlayer
+        slug={slug}
+        audioEntry={audioEntry}
+        variant="minimal"
+        controls={["play", "progress", "speed"]}
+        dock={{ enabled: false }}
+      />
+    </div>
+
+    <div class="theme">
+      <span class="theme-label">variant="card", with a title in the before slot</span>
+      <AudioPlayer slug={slug} audioEntry={audioEntry} variant="card" dock={{ enabled: false }}>
+        <div slot="before" class="card-head">
+          <strong>Getting started with VocaSync</strong>
+          <span>Narrated &middot; 1 min</span>
+        </div>
+      </AudioPlayer>
+    </div>
+  </section>
+
+  <section class="demo">
+    <h2>Density</h2>
+    <p class="note">
+      <code>size</code> scales padding, gaps and control sizes together through one
+      multiplier, which you can also set directly as <code>--vocasync-density</code>.
+    </p>
+    {(["sm", "md", "lg"] as const).map((size) => (
+      <div class="theme">
+        <span class="theme-label">size="{size}"</span>
+        <AudioPlayer
+          slug={slug}
+          audioEntry={audioEntry}
+          size={size}
+          controls={["play", "progress", "speed"]}
+          dock={{ enabled: false }}
+        />
+      </div>
+    ))}
+  </section>
+
+  <section class="demo">
+    <h2>Controls, order and language</h2>
+    <p class="note">
+      <code>controls</code> takes an ordered array, so it sets both which controls
+      appear and where. <code>strings</code> covers every visible label and every
+      accessible name.
+    </p>
+
+    <div class="theme">
+      <span class="theme-label">controls=["play", "volume", "progress", "highlight"]</span>
+      <AudioPlayer
+        slug={slug}
+        audioEntry={audioEntry}
+        controls={["play", "volume", "progress", "highlight"]}
+        dock={{ enabled: false }}
+      />
+    </div>
+
+    <div class="theme">
+      <span class="theme-label">strings in French</span>
+      <AudioPlayer
+        slug={slug}
+        audioEntry={audioEntry}
+        controls={["play", "progress", "speed"]}
+        dock={{ enabled: false }}
+        strings={{
+          label: "Écouter cet article",
+          play: "Lire",
+          pause: "Pause",
+          seek: "Rechercher",
+          speed: "Vitesse de lecture",
+          unavailable: "Audio non disponible pour cet article",
+        }}
+      />
+    </div>
+
+    <div class="theme">
+      <span class="theme-label">A replaced play icon, via the icon-play slot</span>
+      <AudioPlayer
+        slug={slug}
+        audioEntry={audioEntry}
+        controls={["play", "progress"]}
+        dock={{ enabled: false }}
+      >
+        <svg
+          slot="icon-play"
+          class="vocasync-icon vocasync-icon--play"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.75"
+          aria-hidden="true"
+        >
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M10 8.5l6 3.5-6 3.5V8.5z" fill="currentColor"></path>
+        </svg>
+      </AudioPlayer>
+    </div>
+  </section>
+
+  <section class="demo">
+    <h2>When there is no audio</h2>
+    <div class="theme">
+      <AudioPlayer slug="not-synced-yet" dock={{ enabled: false }} />
+    </div>
+  </section>
+
+  <!-- The highlighting styles need a root to attach to, even with no article here. -->
+  <div data-article-body hidden></div>
+</BaseLayout>
+
+<style>
+  .intro {
+    margin-bottom: 3rem;
+  }
+  .intro h1 {
+    margin-bottom: 0.5rem;
+  }
+  .demo {
+    margin-bottom: 3.5rem;
+  }
+  .demo h2 {
+    font-size: 1.15rem;
+    margin-bottom: 0.35rem;
+  }
+  .note {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    max-width: 60ch;
+  }
+  code {
+    font-size: 0.85em;
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    background: color-mix(in oklab, var(--color-text), transparent 92%);
+  }
+  .theme {
+    margin-bottom: 1.75rem;
+  }
+  .theme-label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+  .card-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .card-head span {
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+
+  /* Each theme sets seeds only. Nothing here targets a VocaSync class. */
+  .theme--forest {
+    --vocasync-accent: #15803d;
+    --vocasync-surface: #f2f7f2;
+    --vocasync-text: #14261a;
+    --vocasync-highlight: #ca8a04;
+  }
+
+  .theme--editorial {
+    --vocasync-accent: #7c2d12;
+    --vocasync-surface: #fffbf5;
+    --vocasync-text: #3b2415;
+    --vocasync-highlight: #b45309;
+    --vocasync-radius: 2px;
+    --vocasync-font-family: Georgia, "Times New Roman", serif;
+    --vocasync-density: 1.1;
+  }
+
+  .theme--brutalist {
+    --vocasync-accent: #111111;
+    --vocasync-surface: #fefce8;
+    --vocasync-text: #111111;
+    --vocasync-highlight: #ec4899;
+    --vocasync-radius: 0;
+    --vocasync-radius-control: 0;
+    --vocasync-radius-pill: 0;
+    --vocasync-border-width: 2px;
+    --vocasync-shadow-sm: none;
+    --vocasync-shadow: none;
+    --vocasync-shadow-lg: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .theme--forest {
+      --vocasync-surface: #0d1a10;
+      --vocasync-text: #dbeadd;
+      --vocasync-accent: #4ade80;
+    }
+    .theme--editorial {
+      --vocasync-surface: #1c1410;
+      --vocasync-text: #f0e6da;
+      --vocasync-accent: #fb923c;
+    }
+    .theme--brutalist {
+      --vocasync-surface: #1c1917;
+      --vocasync-text: #fefce8;
+      --vocasync-accent: #fefce8;
+    }
+  }
+</style>

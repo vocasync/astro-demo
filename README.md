@@ -4,18 +4,44 @@ A demo blog showcasing the [@vocasync/astro](https://www.npmjs.com/package/@voca
 
 ## Features Demonstrated
 
-- 🎙️ **Audio Player** - Built-in accessible audio player with mini-player mode
+- 🎙️ **Audio Player** - Built-in accessible player with a floating dock
+- 🎨 **Theming** - A whole [`/themes` gallery](#the-themes-page) of the same component under different palettes, shapes and densities
 - ✨ **Word Highlighting** - Karaoke-style highlighting that follows along with playback
 - 🔢 **Numbers, currency & percent** - Spoken in full ("$1200" → one amount) and highlighted as single units
 - 🌍 **Multiple voices & languages** - A French post and several distinct voices via per-post frontmatter
 - ∑ **Math narration** - LaTeX equations spoken aloud and highlighted as one unit
 - ⌨️ **Keyboard Shortcuts** - Space, arrows, M (mute), H (highlight toggle)
-- 🌗 **Dark Mode** - Automatic theme detection
+- 🌗 **Dark Mode** - The player inherits this site's palette and dark mode from four tokens
+- ⚡ **View transitions** - `<ClientRouter />` is enabled, so the player is exercised across client-side navigation
 - 📱 **Responsive** - Works on all device sizes
 
 The posts in `src/content/blog/` each demonstrate something different: a French post
 (`language: fr`, `voice: shimmer`), a math post (`voice: nova`), and a numbers/currency
 post (`voice: coral`) — each set via per-post frontmatter overrides.
+
+## The `/themes` page
+
+`src/pages/themes.astro` is the interesting file. It renders the same component a
+dozen times under different themes, shapes, densities, control orders and languages —
+and **nothing on that page overrides a VocaSync class or uses `!important`**. It is all
+custom properties and props.
+
+Worth reading for two patterns in particular:
+
+**Point the player's seeds at tokens you already have.** `src/layouts/BaseLayout.astro`
+does this, which is why the player matches this site and follows its dark mode without
+restating a single colour:
+
+```css
+:root {
+  --vocasync-accent: var(--color-primary);
+  --vocasync-surface: var(--color-bg);
+  --vocasync-text: var(--color-text);
+}
+```
+
+**A theme is four values.** Each block in `themes.astro` sets only the seeds; borders,
+muted text, hover states and the play button's contrast colour all derive from them.
 
 ## Getting Started
 
@@ -81,16 +107,21 @@ vocasync-astro-demo/
 
 ### Player Styles
 
-The audio player uses CSS variables for theming. Import the variables and override as needed:
+The stylesheet is injected by the integration — there is nothing to import. Set four
+seeds and the rest derives:
 
 ```css
-@import "@vocasync/astro/styles/variables.css";
-
 :root {
-  --vocasync-primary: #8b5cf6;
+  --vocasync-accent: #8b5cf6;
+  --vocasync-surface: #ffffff;
+  --vocasync-text: #1e1b2e;
   --vocasync-highlight: #22c55e;
 }
 ```
+
+Every rule the player ships sits in a cascade layer and is wrapped in `:where()`, so
+your own CSS wins without `!important`. See `/themes` for the full range, and the
+[token reference](https://github.com/vocasync/astro#theming) for every knob.
 
 ### VocaSync Configuration
 

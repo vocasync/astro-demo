@@ -35,13 +35,12 @@ const audioEntry = audioMap.entries[slug as keyof typeof audioMap.entries];
     </header>
 
     <div class="audio-player-wrapper">
-      <AudioPlayer 
-        slug={slug} 
+      <AudioPlayer
+        slug={slug}
         audioEntry={audioEntry}
-        label={`Listen to "${title}"`}
-        enableMiniPlayer={true}
-        enableHighlighting={true}
-        trailLength={4}
+        strings={{ label: `Listen to "${title}"` }}
+        highlight={{ trailLength: 4 }}
+        autoScroll="paragraph"
       />
     </div>
 
