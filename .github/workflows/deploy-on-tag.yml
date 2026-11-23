@@ -1,0 +1,38 @@
+name: Deploy to Vercel (on tag)
+
+# Vercel's Git auto-deploy for `main` is disabled in vercel.json — production
+# deploys are driven only by explicit version tags, via a Vercel Deploy Hook.
+#
+# The point is to decouple "pushed" from "deployed". Work that must not be lost
+# between machines — a regenerated Convex API spec, a tooling tweak, notes —
+# can land on main without shipping anything. It goes out with the next tag.
+#
+# Requires a repo secret VERCEL_DEPLOY_HOOK_URL (Vercel → Project → Settings →
+# Git → Deploy Hooks). The hook is per-project, so each repo needs its own; it
+# cannot be shared at the org level.
+on:
+  push:
+    tags:
+      - "v*"
+  # Manual re-trigger. The tag push above is a webhook event, so if it is
+  # dropped or throttled the run is never created and does not replay —
+  # meaning a tagged release simply never deploys, silently. Dispatch against
+  # the tag instead:
+  #   gh workflow run deploy-on-tag.yml --ref vX.Y.Z
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        env:
+          HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK_URL" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK_URL secret is not set — create a Deploy Hook in Vercel (Project → Settings → Git → Deploy Hooks) and add it as a repo secret."
+            exit 1
+          fi
+          echo "Firing Vercel deploy hook for ${GITHUB_REF_NAME}..."
+          curl -fsS -X POST "$HOOK_URL"
+          echo "Deploy triggered."
