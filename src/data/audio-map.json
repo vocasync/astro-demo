@@ -1,9 +1,9 @@
 {
   "version": 3,
-  "updatedAt": "2026-05-25T02:48:16.181Z",
+  "updatedAt": "2026-11-24T00:17:00.540Z",
   "entries": {
     "getting-started": {
-      "contentHash": "6ad54d26d5d09836963ca3cc1bfbf2b112c3063e9b02b21be3b2048d0943f4f9",
+      "contentHash": "e6beb26e2e9b50b1049b725ea236ac2fa0517b50f896793d50cf1f6809f3a38a",
       "voice": "onyx",
       "language": "en",
       "format": "mp3",
@@ -1004,7 +1004,7 @@
       "updatedAt": "2026-05-25T02:39:16.266Z"
     },
     "science-of-audio-learning": {
-      "contentHash": "4fd71bdb01f34a32827963d2489be52a11117d8ae146a01cf619b4878f9eb112",
+      "contentHash": "fe8322b7d5a650422a97bf0dd48d5f757b1bd6cb7c99af26d89e93143057f33d",
       "voice": "onyx",
       "language": "en",
       "format": "mp3",
@@ -2989,7 +2989,7 @@
       "updatedAt": "2026-05-25T02:42:43.147Z"
     },
     "vocasync-by-the-numbers": {
-      "contentHash": "b432e21410c5d6a26561d842e54862a5a5ef228a1ecdc3068c395fa59d5f1f2a",
+      "contentHash": "09f013e15724034dcb7d7ffd3a6086c502323b6f5e54a23adbe4e3ecbd8db2be",
       "voice": "coral",
       "language": "en",
       "format": "mp3",
@@ -3744,7 +3744,7 @@
       "updatedAt": "2026-05-25T02:48:16.181Z"
     },
     "bienvenue-sur-vocasync": {
-      "contentHash": "bc4fb28e194aa67acc579dc210ecaea25d21a9c7f4b41a8fcb15e224ba75954c",
+      "contentHash": "26fba136af48322db25d32989b9a43e11e4fcc6b56224d3975d6b8f611c3f133",
       "voice": "shimmer",
       "language": "fr",
       "format": "mp3",
@@ -4265,7 +4265,7 @@
       "updatedAt": "2026-05-25T02:38:08.135Z"
     },
     "the-mathematics-of-sound": {
-      "contentHash": "df71f9397949c9adb1a7f0b33f3393d70d4ce94c3489418e97d1db3eded8ebd7",
+      "contentHash": "a478390b3563ba48864243dde9057743394b93adcbd0f58d9fe5df9f3f10e7f5",
       "voice": "nova",
       "language": "en",
       "format": "mp3",
