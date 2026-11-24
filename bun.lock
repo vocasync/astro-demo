@@ -7,7 +7,7 @@
       "dependencies": {
         "@astrojs/mdx": "^4.3.14",
         "@vercel/analytics": "^2.0.1",
-        "@vocasync/astro": "^2.1.1",
+        "@vocasync/astro": "^2.1.2",
         "astro": "^5.18.2",
         "mathjax-full": "^3.2.2",
         "rehype-mathjax": "^7.1.0",
@@ -243,7 +243,7 @@
 
     "@vercel/analytics": ["@vercel/analytics@2.0.1", "", { "peerDependencies": { "@remix-run/react": "^2", "@sveltejs/kit": "^1 || ^2", "next": ">= 13", "nuxt": ">= 3", "react": "^18 || ^19 || ^19.0.0-rc", "svelte": ">= 4", "vue": "^3", "vue-router": "^4" }, "optionalPeers": ["@remix-run/react", "@sveltejs/kit", "next", "nuxt", "react", "svelte", "vue", "vue-router"] }, "sha512-MTQG6V9qQrt1tsDeF+2Uoo5aPjqbVPys1xvnIftXSJYG2SrwXRHnqEvVoYID7BTruDz4lCd2Z7rM1BdkUehk2g=="],
 
-    "@vocasync/astro": ["@vocasync/astro@2.1.1", "", { "dependencies": { "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.1.0", "zod": "^4.6.7" }, "peerDependencies": { "@astrojs/markdown-remark": "^7.0.0", "astro": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "mathjax-full": "^3.2.0", "speech-rule-engine": "^4.0.0" }, "optionalPeers": ["@astrojs/markdown-remark", "mathjax-full", "speech-rule-engine"], "bin": { "vocasync": "dist/cli.js" } }, "sha512-D6DHQgUBJdJd0HV3feoGSoW2Bz8C4tfhc6voKPGc6/hPayiUs4i8JawL+r9SAcBbZ9yXEC95QsCA+I4dkhopHQ=="],
+    "@vocasync/astro": ["@vocasync/astro@2.1.2", "", { "dependencies": { "remark-math": "^6.0.0", "remark-parse": "^11.0.0", "unified": "^11.0.5", "unist-util-visit-parents": "^6.1.0", "zod": "^4.6.7" }, "peerDependencies": { "@astrojs/markdown-remark": "^7.0.0", "astro": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0", "mathjax-full": "^3.2.0", "speech-rule-engine": "^4.0.0" }, "optionalPeers": ["@astrojs/markdown-remark", "mathjax-full", "speech-rule-engine"], "bin": { "vocasync": "dist/cli.js" } }, "sha512-azUoA5AkdWiF4XVIy0cnj4Z5QRstFVJRPWmjjG84fUFLyel8ITPsnvOvTi05+W8UX85hjovhAqqmOeSrMF430g=="],
 
     "@xmldom/xmldom": ["@xmldom/xmldom@0.9.12", "", {}, "sha512-5AXjrcMClTryPe9LgZrygpB1lj7s0S9E0+W+AHaVKAVyHanafK86iPSvG5xHVSp/jC+VH1UXu0TAEmY279xH7A=="],
 
