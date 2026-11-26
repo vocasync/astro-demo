@@ -16,8 +16,8 @@ A demo blog showcasing the [@vocasync/astro](https://www.npmjs.com/package/@voca
 - 📱 **Responsive** - Works on all device sizes
 
 The posts in `src/content/blog/` each demonstrate something different: a French post
-(`language: fr`, `voice: shimmer`), a math post (`voice: nova`), and a numbers/currency
-post (`voice: coral`) — each set via per-post frontmatter overrides.
+(`language: fr`, `voice: linen`), a math post (`voice: spark`), and a numbers/currency
+post (`voice: juniper`) — each set via per-post frontmatter overrides.
 
 ## The `/themes` page
 
@@ -126,7 +126,7 @@ your own CSS wins without `!important`. See `/themes` for the full range, and th
 ### VocaSync Configuration
 
 Edit `vocasync.config.mjs` (global defaults) or a post's frontmatter (per-post overrides):
-- Voice (alloy, ash, coral, echo, fable, onyx, nova, sage, shimmer)
+- Voice (45 VocaSync voices, e.g. slate, atlas, juniper, beacon, hearth, basalt, spark, willow, linen)
 - Quality (sd, hd)
 - Output format (mp3, aac, opus, flac, wav)
 - Language (14 alignment-supported languages)

@@ -4,7 +4,7 @@ description: "Une courte démonstration de la narration en français avec aligne
 pubDate: 2026-02-05
 author: "VocaSync"
 language: fr
-voice: shimmer
+voice: linen
 ---
 
 Bonjour et bienvenue. VocaSync transforme vos articles en audio narré, avec une synchronisation au niveau du mot.

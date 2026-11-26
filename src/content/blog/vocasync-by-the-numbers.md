@@ -3,7 +3,7 @@ title: "VocaSync by the Numbers"
 description: "How numbers, currency, and percentages are spoken in full and highlighted as single units."
 pubDate: 2026-02-07
 author: "VocaSync"
-voice: coral
+voice: juniper
 ---
 
 Let's talk numbers — literally. Each figure below is spoken in full, and the whole figure highlights as one unit while you hear it.

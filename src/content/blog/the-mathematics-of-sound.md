@@ -3,7 +3,7 @@ title: "The Mathematics of Sound"
 description: "A short tour of a few equations, narrated with spoken math and word-level highlighting."
 pubDate: 2026-02-06
 author: "VocaSync"
-voice: nova
+voice: spark
 ---
 
 Sound waves can be described with surprisingly simple mathematics, and VocaSync reads the equations aloud.

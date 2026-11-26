@@ -14,7 +14,7 @@ export default {
 
   // Synthesis settings
   synthesis: {
-    voice: "onyx",
+    voice: "basalt",
     quality: "hd",
     format: "mp3",
   },
