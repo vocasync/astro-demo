@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
-  <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-  <line x1="12" y1="19" x2="12" y2="23"/>
-  <line x1="8" y1="23" x2="16" y2="23"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="VocaSync"><title>VocaSync</title><rect x="4" y="4" width="92" height="92" fill="#0E2F1B"/><path d="M16.65 34.05V42.75" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/><path d="M27.77 28.61V48.19" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/><path d="M38.88 22.09V54.71" stroke="#42BD75" stroke-width="8" stroke-linecap="round"/><path d="M50 30.79V46.01" stroke="#42BD75" stroke-width="8" stroke-linecap="round"/><path d="M61.12 18.82V57.97" stroke="#42BD75" stroke-width="8" stroke-linecap="round"/><path d="M72.23 26.44V50.36" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/><path d="M83.35 32.96V43.84" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/><path d="M16.65 76.1H27.77" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/><path d="M38.88 76.1H61.12" stroke="#42BD75" stroke-width="8" stroke-linecap="round"/><path d="M72.23 76.1H83.35" stroke="#F9FBF9" stroke-width="8" stroke-linecap="round"/></svg>
